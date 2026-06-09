@@ -1,0 +1,227 @@
+{
+  "culture": {
+    "tagline": "Build the future of digital Africa",
+    "mission": "At Tesle, we're on a mission to empower African businesses with world-class digital solutions. We believe in the power of technology to transform industries, create opportunities, and drive economic growth across the continent.",
+    "values": [
+      { "title": "Craft Over Speed", "description": "We ship fast but never at the expense of quality. Every line of code, every pixel, every word is intentional.", "icon": "Gem" },
+      { "title": "Radical Ownership", "description": "Every team member owns their work end-to-end. We trust each other to make decisions and take responsibility.", "icon": "Target" },
+      { "title": "Continuous Learning", "description": "The digital landscape evolves daily. We invest in learning, share knowledge openly, and stay curious.", "icon": "BookOpen" },
+      { "title": "People First", "description": "Great work comes from happy, healthy people. We prioritise well-being, flexibility, and genuine connection.", "icon": "Heart" },
+      { "title": "African Excellence", "description": "We build for Africa and the world. Our solutions are designed with local context and global standards.", "icon": "Globe" }
+    ]
+  },
+  "benefits": [
+    { "title": "Remote-First", "description": "Work from anywhere in Ghana or across Africa. Our team spans cities and countries — we're built for async collaboration.", "icon": "Wifi" },
+    { "title": "Competitive Compensation", "description": "We pay top-tier salaries in USD, plus equity options. Your compensation reflects the value you create.", "icon": "Zap" },
+    { "title": "Health & Wellness", "description": "Comprehensive health insurance covering you and your dependents, plus a wellness stipend for gym, therapy, or massage.", "icon": "HeartPulse" },
+    { "title": "Learning Budget", "description": "Annual learning allowance for courses, conferences, books, and certifications. Your growth is our growth.", "icon": "GraduationCap" },
+    { "title": "Flexible Time Off", "description": "Unlimited paid time off — we trust you to manage your energy. Minimum 20 days encouraged per year.", "icon": "Sun" },
+    { "title": "Annual Retreats", "description": "Every year we gather the whole team somewhere amazing. Past retreats: Cape Coast, Akosombo, and Accra.", "icon": "MapPin" },
+    { "title": "Home Office Setup", "description": "One-time stipend for your dream home office — monitor, chair, desk, noise-cancelling headphones, whatever you need.", "icon": "Monitor" },
+    { "title": "Equity Ownership", "description": "Every full-time team member receives stock options. When Tesle grows, you grow.", "icon": "TrendingUp" }
+  ],
+  "team": [
+    { "name": "James Park", "role": "CTO & Co-Founder", "avatar": "https://picsum.photos/seed/james-team/300/300", "bio": "Former engineering lead at a fintech unicorn. James architects our platforms and mentors the engineering team." },
+    { "name": "Sarah Chen", "role": "Senior Software Engineer", "avatar": "https://picsum.photos/seed/sarah-team/300/300", "bio": "Full-stack engineer with a passion for React and distributed systems. Sarah leads our web development practice." },
+    { "name": "Marcus Williams", "role": "Creative Director", "avatar": "https://picsum.photos/seed/marcus-team/300/300", "bio": "Award-winning designer with 12+ years in brand and digital design. Marcus shapes every visual detail." },
+    { "name": "Amina Okonkwo", "role": "Digital Marketing Lead", "avatar": "https://picsum.photos/seed/amina-team/300/300", "bio": "Data-driven marketer who has scaled brands across Africa. Amina drives our clients' growth strategies." },
+    { "name": "Elena Rodriguez", "role": "Lead Photographer", "avatar": "https://picsum.photos/seed/elena-team/300/300", "bio": "Commercial photographer whose work has appeared in Vogue and Monocle. Elena leads our visual production." },
+    { "name": "David Kim", "role": "Product Designer", "avatar": "https://picsum.photos/seed/david-team/300/300", "bio": "UX specialist focused on creating intuitive, accessible interfaces. David bridges design and development." }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "slug": "senior-software-engineer",
+      "title": "Senior Software Engineer",
+      "department": "Engineering",
+      "type": "Full-time",
+      "location": "Remote (Ghana)",
+      "remote": true,
+      "featured": true,
+      "description": "We're looking for a senior software engineer to join our core engineering team. You'll architect and build scalable web applications, mentor junior engineers, and shape our technical direction.",
+      "responsibilities": [
+        "Design and implement scalable full-stack web applications",
+        "Lead code reviews and architectural discussions",
+        "Mentor junior and mid-level engineers",
+        "Contribute to our open-source projects and internal tooling",
+        "Collaborate with design and product teams on feature development"
+      ],
+      "requirements": [
+        "5+ years of professional software engineering experience",
+        "Deep expertise in React, TypeScript, and Node.js",
+        "Experience with cloud infrastructure (AWS, GCP, or Azure)",
+        "Strong understanding of databases (PostgreSQL, Redis)",
+        "Excellent communication and collaboration skills"
+      ],
+      "benefits": "All standard benefits plus a lead engineering stipend and conference budget.",
+      "salary": "$60,000 – $90,000"
+    },
+    {
+      "id": 2,
+      "slug": "product-designer",
+      "title": "Product Designer",
+      "department": "Design",
+      "type": "Full-time",
+      "location": "Remote (Ghana)",
+      "remote": true,
+      "featured": false,
+      "description": "We need a product designer who can take features from concept to polished UI. You'll work closely with engineers and stakeholders to create intuitive, beautiful experiences.",
+      "responsibilities": [
+        "Design user flows, wireframes, and high-fidelity prototypes",
+        "Conduct user research and usability testing",
+        "Maintain and evolve our design system",
+        "Collaborate with engineers during implementation",
+        "Present design concepts and rationale to stakeholders"
+      ],
+      "requirements": [
+        "3+ years of product design experience",
+        "Expert proficiency in Figma",
+        "Strong portfolio demonstrating UX thinking and visual craft",
+        "Experience with design systems and component libraries",
+        "Understanding of frontend development constraints"
+      ],
+      "benefits": "All standard benefits plus a designer-specific tooling and resource budget.",
+      "salary": "$40,000 – $65,000"
+    },
+    {
+      "id": 3,
+      "slug": "digital-marketing-manager",
+      "title": "Digital Marketing Manager",
+      "department": "Marketing",
+      "type": "Full-time",
+      "location": "Remote (Ghana)",
+      "remote": true,
+      "featured": true,
+      "description": "Lead our digital marketing practice and drive measurable results for our clients. You'll own strategy, execution, and reporting across paid, owned, and earned channels.",
+      "responsibilities": [
+        "Develop and execute multi-channel marketing strategies",
+        "Manage paid advertising campaigns across Google, Meta, and LinkedIn",
+        "Lead content marketing and SEO initiatives",
+        "Analysing campaign performance and optimising for ROI",
+        "Presenting results and recommendations to clients"
+      ],
+      "requirements": [
+        "4+ years of digital marketing experience",
+        "Proven track record managing significant ad budgets",
+        "Expertise in Google Ads, Meta Ads Manager, and analytics tools",
+        "Strong copywriting and content strategy skills",
+        "Experience in B2B and B2C marketing"
+      ],
+      "benefits": "All standard benefits plus performance bonuses tied to campaign results.",
+      "salary": "$35,000 – $55,000"
+    },
+    {
+      "id": 4,
+      "slug": "photographer-videographer",
+      "title": "Photographer & Videographer",
+      "department": "Creative Production",
+      "type": "Full-time",
+      "location": "Accra, Ghana",
+      "remote": false,
+      "featured": false,
+      "description": "Join our creative production team to shoot and edit compelling visual content for clients across commercial, corporate, and editorial projects.",
+      "responsibilities": [
+        "Plan and execute photo and video shoots on location and in studio",
+        "Edit and retouch photos using Capture One and Photoshop",
+        "Edit video footage including colour grading and sound design",
+        "Maintain and organise equipment inventory",
+        "Collaborate with creative directors on project concepts"
+      ],
+      "requirements": [
+        "3+ years of professional photography and videography experience",
+        "Proficiency with Sony and Canon camera systems",
+        "Expertise in Adobe Creative Suite and DaVinci Resolve",
+        "Drone pilot certification is a plus",
+        "Strong portfolio demonstrating range across commercial work"
+      ],
+      "benefits": "All standard benefits plus equipment budget and travel opportunities.",
+      "salary": "$25,000 – $40,000"
+    },
+    {
+      "id": 5,
+      "slug": "junior-frontend-developer",
+      "title": "Junior Frontend Developer",
+      "department": "Engineering",
+      "type": "Full-time",
+      "location": "Remote (Ghana)",
+      "remote": true,
+      "featured": false,
+      "description": "A great opportunity for a junior developer with 1-2 years of experience to grow their skills on real-world projects with mentorship from our senior team.",
+      "responsibilities": [
+        "Build and maintain UI components in React and TypeScript",
+        "Write clean, well-documented code",
+        "Participate in code reviews and team stand-ups",
+        "Fix bugs and implement feature improvements",
+        "Learn from senior engineers through pair programming"
+      ],
+      "requirements": [
+        "1+ years of frontend development experience",
+        "Proficiency in React, HTML, CSS, and JavaScript/TypeScript",
+        "Familiarity with version control (Git)",
+        "Eagerness to learn and take feedback",
+        "Portfolio or GitHub profile showing your work"
+      ],
+      "benefits": "All standard benefits plus dedicated mentorship and learning budget.",
+      "salary": "$18,000 – $30,000"
+    },
+    {
+      "id": 6,
+      "slug": "content-writer",
+      "title": "Content Writer",
+      "department": "Marketing",
+      "type": "Contract",
+      "location": "Remote",
+      "remote": true,
+      "featured": false,
+      "description": "We're looking for a skilled content writer to produce blog posts, case studies, social media copy, and website content for Tesle and our clients.",
+      "responsibilities": [
+        "Write and edit blog posts, articles, and thought leadership pieces",
+        "Develop case studies and white papers",
+        "Create social media copy and content calendars",
+        "Optimise content for SEO",
+        "Interview subject matter experts and synthesise insights"
+      ],
+      "requirements": [
+        "2+ years of professional content writing experience",
+        "Excellent written English with a portfolio of published work",
+        "Understanding of SEO best practices",
+        "Ability to simplify complex technical topics",
+        "Experience with CMS platforms (WordPress, Contentful)"
+      ],
+      "benefits": "Flexible contract terms with potential for full-time conversion.",
+      "salary": "$15,000 – $25,000"
+    }
+  ],
+  "internships": [
+    {
+      "id": 1,
+      "title": "Software Engineering Intern",
+      "department": "Engineering",
+      "duration": "3 months",
+      "location": "Remote (Ghana)",
+      "description": "Work alongside our engineering team on real projects. You'll gain hands-on experience with modern web technologies, agile development, and production systems.",
+      "requirements": ["Currently pursuing a degree in Computer Science or related field", "Familiarity with at least one programming language", "Strong problem-solving skills", "Available for a minimum of 3 months full-time"],
+      "stipend": "₵2,000 – ₵3,500/month"
+    },
+    {
+      "id": 2,
+      "title": "Design Intern",
+      "department": "Design",
+      "duration": "3 months",
+      "location": "Remote (Ghana)",
+      "description": "Learn the ropes of product design in a real agency environment. You'll support our design team on client projects and build your portfolio.",
+      "requirements": ["Currently pursuing a degree in Design, HCI, or related field", "Basic proficiency in Figma", "A design portfolio showing your potential", "Available for a minimum of 3 months full-time"],
+      "stipend": "₵1,500 – ₵2,500/month"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Intern",
+      "department": "Marketing",
+      "duration": "3 months",
+      "location": "Remote (Ghana)",
+      "description": "Get hands-on experience in digital marketing — from content creation and social media management to campaign analysis and reporting.",
+      "requirements": ["Currently pursuing a degree in Marketing or related field", "Familiarity with social media platforms and trends", "Strong writing skills", "Available for a minimum of 3 months full-time"],
+      "stipend": "₵1,500 – ₵2,500/month"
+    }
+  ]
+}

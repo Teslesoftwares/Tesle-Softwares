@@ -1,0 +1,320 @@
+[
+  {
+    "id": 1,
+    "slug": "photography-gallery",
+    "title": "Photography Gallery",
+    "description": "A curated collection of our finest photographic work spanning portrait, landscape, macro, and street photography — each frame telling a unique story.",
+    "icon": "Camera",
+    "color": "from-amber-500 to-orange-600",
+    "type": "image",
+    "items": [
+      {
+        "id": 1,
+        "title": "Golden Hour Portraits",
+        "description": "A series of natural light portraits captured during golden hour, highlighting the interplay between warm sunlight and natural landscapes.",
+        "image": { "url": "https://picsum.photos/seed/golden-portrait/800/1000", "alt": "Golden hour portrait session", "width": 800, "height": 1000 },
+        "tags": ["Portrait", "Natural Light", "Golden Hour", "Outdoor"]
+      },
+      {
+        "id": 2,
+        "title": "Coastal Landscapes",
+        "description": "Dramatic seascapes and coastal vistas captured along the Atlantic shoreline, from rugged cliffs to serene beaches at dawn.",
+        "image": { "url": "https://picsum.photos/seed/coastal-landscape/900/600", "alt": "Coastal landscape photography", "width": 900, "height": 600 },
+        "tags": ["Landscape", "Coastal", "Sunrise", "Long Exposure"]
+      },
+      {
+        "id": 3,
+        "title": "Macro Flora Collection",
+        "description": "Extreme close-up photography revealing the intricate details of flora — dew-kissed petals, pollen-dusted stamens, and veined leaves.",
+        "image": { "url": "https://picsum.photos/seed/macro-flora/700/900", "alt": "Macro flower photography", "width": 700, "height": 900 },
+        "tags": ["Macro", "Flora", "Detail", "Nature"]
+      },
+      {
+        "id": 4,
+        "title": "Urban Street Stories",
+        "description": "Candid street photography documenting the rhythm and character of city life across Accra, Lagos, and Nairobi.",
+        "image": { "url": "https://picsum.photos/seed/urban-street/950/650", "alt": "Urban street photography", "width": 950, "height": 650 },
+        "tags": ["Street", "Urban", "Candid", "Documentary"]
+      },
+      {
+        "id": 5,
+        "title": "Night Cityscapes",
+        "description": "Long exposure cityscape photography capturing the vibrant energy of urban skylines after dark.",
+        "image": { "url": "https://picsum.photos/seed/night-city/850/750", "alt": "Night cityscape", "width": 850, "height": 750 },
+        "tags": ["Cityscape", "Night", "Long Exposure", "Urban"]
+      },
+      {
+        "id": 6,
+        "title": "Fine Art Nudes",
+        "description": "Artistic black and white nude studies exploring form, shadow, and the human silhouette in minimalist compositions.",
+        "image": { "url": "https://picsum.photos/seed/fine-art-nude/750/1000", "alt": "Fine art nude photography", "width": 750, "height": 1000 },
+        "tags": ["Fine Art", "Black & White", "Studio", "Minimalist"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "video-portfolio",
+    "title": "Video Portfolio",
+    "description": "Cinematic video productions spanning brand stories, product launches, and corporate narratives — crafted with meticulous attention to pacing, mood, and message.",
+    "icon": "Video",
+    "color": "from-red-500 to-rose-600",
+    "type": "video",
+    "items": [
+      {
+        "id": 1,
+        "title": "Brand Story: Artisan Coffee",
+        "description": "A warm, sensory brand film tracing the journey of single-origin coffee beans from farm to cup, highlighting sustainability and craft.",
+        "thumbnail": { "url": "https://picsum.photos/seed/coffee-brand/800/450", "alt": "Artisan coffee brand film thumbnail" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "3:24",
+        "tags": ["Brand Film", "Storytelling", "Food & Beverage"]
+      },
+      {
+        "id": 2,
+        "title": "Product Launch: Tech Innovation",
+        "description": "High-energy product reveal video combining cinematic product shots, motion graphics, and an original soundtrack.",
+        "thumbnail": { "url": "https://picsum.photos/seed/tech-launch/800/450", "alt": "Tech product launch video thumbnail" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "1:58",
+        "tags": ["Product Launch", "Motion Graphics", "Technology"]
+      },
+      {
+        "id": 3,
+        "title": "Corporate Overview: Global Logistics",
+        "description": "A polished corporate film combining interview segments, data visualization, and global footage to communicate scale and reliability.",
+        "thumbnail": { "url": "https://picsum.photos/seed/logistics-film/800/450", "alt": "Corporate logistics video thumbnail" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "4:12",
+        "tags": ["Corporate", "Interview", "Data Visualization"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "drone-footage",
+    "title": "Drone Footage Showcase",
+    "description": "Breathtaking aerial cinematography captured with professional-grade drones — revealing new perspectives on landscapes, architecture, and events.",
+    "icon": "Plane",
+    "color": "from-sky-500 to-cyan-600",
+    "type": "video",
+    "items": [
+      {
+        "id": 1,
+        "title": "Coastal Resort Aerial Tour",
+        "description": "A sweeping aerial tour of a luxury coastal resort, showcasing crystalline pools, private villas, and pristine beachfront from above.",
+        "thumbnail": { "url": "https://picsum.photos/seed/aerial-resort/800/450", "alt": "Aerial resort drone footage thumbnail" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "2:45",
+        "tags": ["Aerial", "Resort", "Coastal", "Luxury"]
+      },
+      {
+        "id": 2,
+        "title": "Mega Mall Construction Progress",
+        "description": "Time-lapse aerial documentation of a mega mall construction over 18 months — from foundation excavation to grand opening.",
+        "thumbnail": { "url": "https://picsum.photos/seed/aerial-construction/800/450", "alt": "Construction time-lapse drone footage" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "5:10",
+        "tags": ["Aerial", "Construction", "Time-lapse", "Real Estate"]
+      },
+      {
+        "id": 3,
+        "title": "Safari Wilderness",
+        "description": "Aerial wildlife cinematography capturing elephants, giraffes, and zebras traversing the African savannah at golden hour.",
+        "thumbnail": { "url": "https://picsum.photos/seed/aerial-safari/800/450", "alt": "Safari aerial drone footage" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "3:38",
+        "tags": ["Aerial", "Wildlife", "Safari", "Nature"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "event-coverage",
+    "title": "Event Coverage Portfolio",
+    "description": "Comprehensive event photography and videography covering conferences, weddings, festivals, and corporate gatherings with journalistic precision.",
+    "icon": "CalendarCheck",
+    "color": "from-violet-500 to-purple-600",
+    "type": "image",
+    "items": [
+      {
+        "id": 1,
+        "title": "Tech Conference 2026",
+        "description": "Two-day coverage of Africa's largest tech conference — keynote sessions, panel discussions, networking moments, and behind-the-scenes candids.",
+        "image": { "url": "https://picsum.photos/seed/tech-conf/900/600", "alt": "Tech conference keynote stage", "width": 900, "height": 600 },
+        "tags": ["Conference", "Technology", "Corporate", "Keynote"]
+      },
+      {
+        "id": 2,
+        "title": "Luxury Wedding: Lakeside Ceremony",
+        "description": "Full-day wedding coverage at a private lakeside estate — from intimate preparation moments to a starlit reception.",
+        "image": { "url": "https://picsum.photos/seed/lakeside-wedding/800/1000", "alt": "Lakeside wedding ceremony", "width": 800, "height": 1000 },
+        "tags": ["Wedding", "Luxury", "Outdoor", "Romantic"]
+      },
+      {
+        "id": 3,
+        "title": "Music Festival: Main Stage",
+        "description": "High-energy coverage of a three-day music festival capturing headliner performances, crowd energy, and vibrant production design.",
+        "image": { "url": "https://picsum.photos/seed/music-fest/950/650", "alt": "Music festival main stage", "width": 950, "height": 650 },
+        "tags": ["Festival", "Music", "Live Event", "Night"]
+      },
+      {
+        "id": 4,
+        "title": "Corporate Gala Dinner",
+        "description": "Elegant coverage of a black-tie corporate gala — red carpet arrivals, award ceremonies, and networking over fine dining.",
+        "image": { "url": "https://picsum.photos/seed/corporate-gala/850/750", "alt": "Corporate gala dinner event", "width": 850, "height": 750 },
+        "tags": ["Gala", "Corporate", "Formal", "Evening"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "product-photography",
+    "title": "Product Photography Portfolio",
+    "description": "Studio-quality product photography that makes every detail count — from luxury goods to consumer electronics, styled and lit for maximum impact.",
+    "icon": "Package",
+    "color": "from-emerald-500 to-teal-600",
+    "type": "image",
+    "items": [
+      {
+        "id": 1,
+        "title": "Luxury Watch Collection",
+        "description": "Detailed product photography for a luxury watch brand, highlighting craftsmanship through macro details and lifestyle compositions.",
+        "image": { "url": "https://picsum.photos/seed/luxury-watch/800/800", "alt": "Luxury watch product photography", "width": 800, "height": 800 },
+        "tags": ["Luxury", "Macro", "Studio", "Accessories"]
+      },
+      {
+        "id": 2,
+        "title": "Artisanal Food Packaging",
+        "description": "Mouthwatering product shots for an organic food brand — styled garnishes, packaging hero shots, and ingredient flat lays.",
+        "image": { "url": "https://picsum.photos/seed/food-packaging/700/900", "alt": "Artisanal food packaging photography", "width": 700, "height": 900 },
+        "tags": ["Food", "Packaging", "Studio", "Lifestyle"]
+      },
+      {
+        "id": 3,
+        "title": "Minimalist Furniture Line",
+        "description": "Clean, architectural product photography for a contemporary furniture collection emphasizing form, material, and space.",
+        "image": { "url": "https://picsum.photos/seed/furniture-line/900/700", "alt": "Minimalist furniture photography", "width": 900, "height": 700 },
+        "tags": ["Furniture", "Minimalist", "Interior", "Studio"]
+      },
+      {
+        "id": 4,
+        "title": "Smartphone Accessories",
+        "description": "Sleek product shots for a premium phone accessories brand — cases, chargers, and audio devices on gradient backgrounds.",
+        "image": { "url": "https://picsum.photos/seed/phone-accessories/800/900", "alt": "Smartphone accessories photography", "width": 800, "height": 900 },
+        "tags": ["Technology", "Accessories", "Studio", "E-commerce"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "corporate-photography",
+    "title": "Corporate Photography Portfolio",
+    "description": "Professional corporate photography that builds brand credibility — executive portraits, office culture, team events, and architectural interiors.",
+    "icon": "Building2",
+    "color": "from-blue-500 to-indigo-600",
+    "type": "image",
+    "items": [
+      {
+        "id": 1,
+        "title": "Executive Portraits: Fortune 500",
+        "description": "A series of polished executive portraits for a Fortune 500 company's annual report, website, and LinkedIn presence.",
+        "image": { "url": "https://picsum.photos/seed/executive-portrait/800/950", "alt": "Executive corporate portrait", "width": 800, "height": 950 },
+        "tags": ["Portrait", "Executive", "Corporate", "Studio"]
+      },
+      {
+        "id": 2,
+        "title": "Office Culture: Tech Startup",
+        "description": "Candid and posed shots capturing the vibrant culture of a fast-growing tech startup — open plan spaces, team collaboration, and break room moments.",
+        "image": { "url": "https://picsum.photos/seed/office-culture/950/650", "alt": "Tech startup office culture", "width": 950, "height": 650 },
+        "tags": ["Office", "Culture", "Candid", "Lifestyle"]
+      },
+      {
+        "id": 3,
+        "title": "Corporate Headquarters Architecture",
+        "description": "Architectural photography of a newly completed corporate HQ building — exterior facades, lobby design, and meeting spaces.",
+        "image": { "url": "https://picsum.photos/seed/corp-hq/900/600", "alt": "Corporate headquarters architecture", "width": 900, "height": 600 },
+        "tags": ["Architecture", "Interior", "Corporate", "Real Estate"]
+      },
+      {
+        "id": 4,
+        "title": "Team Building Retreat",
+        "description": "Documentary-style coverage of a company-wide team building retreat — outdoor activities, workshop sessions, and group celebrations.",
+        "image": { "url": "https://picsum.photos/seed/team-retreat/850/800", "alt": "Corporate team building retreat", "width": 850, "height": 800 },
+        "tags": ["Team", "Retreat", "Documentary", "Outdoor"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "video-reels",
+    "title": "Video Reels",
+    "description": "High-energy compilation reels showcasing our best work — from short social cuts to full showreels demonstrating our creative range.",
+    "icon": "Clapperboard",
+    "color": "from-pink-500 to-fuchsia-600",
+    "type": "video",
+    "items": [
+      {
+        "id": 1,
+        "title": "Showreel 2026",
+        "description": "Our annual showreel featuring the most impactful moments from the past year — a cinematic journey through our best productions.",
+        "thumbnail": { "url": "https://picsum.photos/seed/showreel-2026/800/450", "alt": "Showreel 2026 thumbnail" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "2:30",
+        "tags": ["Showreel", "Compilation", "Cinematic"]
+      },
+      {
+        "id": 2,
+        "title": "Social Ads Compilation",
+        "description": "A curated selection of our most effective social media advertisements — 15 to 60 second cuts optimized for platforms.",
+        "thumbnail": { "url": "https://picsum.photos/seed/social-ads/800/450", "alt": "Social media ads compilation thumbnail" },
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "duration": "3:15",
+        "tags": ["Social Media", "Advertising", "Short Form"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "before-after",
+    "title": "Before & After Comparisons",
+    "description": "Dramatic transformations revealed through side-by-side comparisons — photo retouching, brand refreshes, venue transformations, and restoration work.",
+    "icon": "ArrowLeftRight",
+    "color": "from-green-500 to-emerald-600",
+    "type": "comparison",
+    "items": [
+      {
+        "id": 1,
+        "title": "Product Photo Retouching",
+        "description": "Professional product retouching transforming a raw product shot into a polished e-commerce hero image with perfect lighting and color grading.",
+        "before": { "url": "https://picsum.photos/seed/retouch-before/800/600", "alt": "Before retouching — raw product photo" },
+        "after": { "url": "https://picsum.photos/seed/retouch-after/800/600", "alt": "After retouching — polished product photo" },
+        "tags": ["Retouching", "Product", "E-commerce", "Color Grading"]
+      },
+      {
+        "id": 2,
+        "title": "Storefront Brand Refresh",
+        "description": "Complete physical storefront transformation — from dated signage and cluttered window displays to a modern, minimalist brand experience.",
+        "before": { "url": "https://picsum.photos/seed/store-before/800/600", "alt": "Storefront before brand refresh" },
+        "after": { "url": "https://picsum.photos/seed/store-after/800/600", "alt": "Storefront after brand refresh" },
+        "tags": ["Branding", "Retail", "Storefront", "Transformation"]
+      },
+      {
+        "id": 3,
+        "title": "Event Venue Transformation",
+        "description": "An empty conference hall transformed into an immersive brand activation space — from bare walls to a fully branded experiential environment.",
+        "before": { "url": "https://picsum.photos/seed/venue-before/800/600", "alt": "Empty venue before transformation" },
+        "after": { "url": "https://picsum.photos/seed/venue-after/800/600", "alt": "Transformed venue after setup" },
+        "tags": ["Event", "Venue", "Brand Activation", "Production"]
+      },
+      {
+        "id": 4,
+        "title": "Portrait Retouching & Color Grade",
+        "description": "Professional portrait retouching including skin smoothing, color grading, background cleanup, and mood enhancement.",
+        "before": { "url": "https://picsum.photos/seed/portrait-before/800/800", "alt": "Raw portrait before retouching" },
+        "after": { "url": "https://picsum.photos/seed/portrait-after/800/800", "alt": "Retouched portrait after editing" },
+        "tags": ["Portrait", "Retouching", "Color Grading", "Beauty"]
+      }
+    ]
+  }
+]

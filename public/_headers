@@ -1,0 +1,20 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Immutable caching for hashed assets (1 year)
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# WebP images
+*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts
+/assets/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+# No cache for HTML
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate

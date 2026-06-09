@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --color-gold: #d4a853;
+  --color-gold-dark: #b8943a;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

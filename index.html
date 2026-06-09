@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+
+    <!-- Preload hero LCP image -->
+    <link rel="preload" href="/background.webp" as="image" fetchpriority="high" />
+
+    <!-- Critical font (non-blocking) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" /></noscript>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2300E5FF' fill-opacity='0.15'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='18' font-weight='bold' fill='%2300E5FF' font-family='sans-serif'%3ET%3C/text%3E%3C/svg%3E" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2300E5FF' fill-opacity='0.15'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='18' font-weight='bold' fill='%2300E5FF' font-family='sans-serif'%3ET%3C/text%3E%3C/svg%3E" />
+
+    <title>Tesle — Digital Agency | Software, Design & Marketing in Ghana</title>
+    <meta name="description" content="Full-service digital agency in Ghana. We build software, websites, mobile apps, brands, and marketing that drives growth for African businesses." />
+    <meta name="keywords" content="digital agency, software development, web development, mobile apps, branding, marketing, Ghana, Accra" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="author" content="Tesle" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Tesle" />
+    <meta property="og:locale" content="en_GH" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://tesle.ai/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Tesle",
+        "url": "https://tesle.ai",
+        "logo": "https://tesle.ai/logo.png",
+        "description": "Full-service digital agency in Ghana building software, websites, mobile apps, brands, and marketing solutions.",
+        "contactPoint": { "@type": "ContactPoint", "telephone": "+233-50-123-4567", "contactType": "sales" },
+        "sameAs": ["https://x.com/tesleai", "https://linkedin.com/company/tesle", "https://instagram.com/tesle"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

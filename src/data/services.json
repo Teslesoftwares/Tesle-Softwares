@@ -1,0 +1,593 @@
+[
+  {
+    "id": 1,
+    "slug": "software-development",
+    "title": "Software Development",
+    "shortDescription": "Custom software solutions built with modern architectures — from enterprise platforms to scalable microservices.",
+    "icon": "Code2",
+    "color": "from-cyan-500 to-blue-600",
+    "fullDescription": "We engineer robust, scalable software systems tailored to your business needs. From enterprise-grade platforms to nimble SaaS products, our team delivers clean, maintainable code using modern architectures and best practices.",
+    "features": [
+      "Custom web and desktop applications",
+      "API development and third-party integrations",
+      "Microservices and serverless architectures",
+      "Database design and optimization",
+      "Cloud infrastructure on AWS, GCP, or Azure",
+      "CI/CD pipeline setup and DevOps",
+      "Code audits and legacy modernization",
+      "Technical consulting and architecture reviews"
+    ],
+    "benefits": [
+      {
+        "title": "Scalable Architecture",
+        "description": "Built to grow with your business — from hundreds to millions of users."
+      },
+      {
+        "title": "Future-Proof Tech Stack",
+        "description": "We choose technologies with long-term viability and strong community support."
+      },
+      {
+        "title": "Security First",
+        "description": "OWASP-compliant development with regular penetration testing and audits."
+      },
+      {
+        "title": "Dedicated Team",
+        "description": "A consistent squad of engineers who understand your product deeply."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Requirements", "description": "Deep-dive workshops to map every functional and technical requirement." },
+      { "step": 2, "title": "Architecture", "description": "System design, tech stack selection, and infrastructure planning." },
+      { "step": 3, "title": "Development", "description": "Agile sprints with continuous integration and daily stand-ups." },
+      { "step": 4, "title": "Testing", "description": "Automated unit, integration, and end-to-end testing." },
+      { "step": 5, "title": "Deployment", "description": "Staged rollout with monitoring, alerting, and rollback plans." }
+    ],
+    "faqs": [
+      { "question": "What technologies do you use?", "answer": "We are tech-agnostic and choose the best tools for each project. Our stack includes React, Node.js, Python, Go, PostgreSQL, MongoDB, Docker, Kubernetes, and more." },
+      { "question": "How do you ensure code quality?", "answer": "We enforce strict code reviews, automated testing (80%+ coverage), linting, and type checking. Every PR is reviewed by at least one senior engineer." },
+      { "question": "Can you work with our existing codebase?", "answer": "Yes. We regularly take over existing projects, perform code audits, and modernize legacy systems while keeping your business running." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "Go", "PostgreSQL", "Docker", "Kubernetes", "AWS"]
+  },
+  {
+    "id": 2,
+    "slug": "website-development",
+    "title": "Website Development",
+    "shortDescription": "High-performance websites and web applications with stunning design, blazing speed, and seamless UX.",
+    "icon": "Globe",
+    "color": "from-emerald-500 to-teal-600",
+    "fullDescription": "We build websites that load instantly, rank well, and convert visitors into customers. From marketing sites to complex web applications, every project is optimized for performance, accessibility, and search engines.",
+    "features": [
+      "Custom website design and development",
+      "E-commerce platforms and storefronts",
+      "Content management systems (CMS)",
+      "Landing pages and microsites",
+      "Progressive web applications (PWA)",
+      "Performance optimization and Core Web Vitals",
+      "Accessibility compliance (WCAG)",
+      "Third-party integrations and APIs"
+    ],
+    "benefits": [
+      {
+        "title": "Blazing Speed",
+        "description": "Sub-second load times with optimized assets, CDN delivery, and server-side rendering."
+      },
+      {
+        "title": "SEO Optimized",
+        "description": "Built-in semantic HTML, structured data, and technical SEO best practices."
+      },
+      {
+        "title": "Mobile First",
+        "description": "Every site is designed mobile-first and tested across real devices."
+      },
+      {
+        "title": "Easy to Manage",
+        "description": "User-friendly CMS options so your team can update content without developers."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Understand your brand, audience, and business goals." },
+      { "step": 2, "title": "Wireframing", "description": "Low and high-fidelity wireframes mapping the user journey." },
+      { "step": 3, "title": "Design", "description": "Visual design with your brand identity and feedback loops." },
+      { "step": 4, "title": "Development", "description": "Clean code with responsive design and performance budgets." },
+      { "step": 5, "title": "Launch", "description": "Staged deployment with SEO finalization and analytics setup." }
+    ],
+    "faqs": [
+      { "question": "How long does a website take?", "answer": "A standard marketing site takes 4–6 weeks. E-commerce and web applications range from 8–16 weeks depending on complexity." },
+      { "question": "Do you offer hosting?", "answer": "Yes, we offer managed hosting on AWS, Vercel, or Netlify with monitoring, backups, and 99.9% uptime SLA." },
+      { "question": "Will my site be mobile-friendly?", "answer": "Absolutely. Every site we build is responsive and tested on iOS, Android, tablets, and desktops." }
+    ],
+    "technologies": ["React", "Next.js", "Tailwind CSS", "TypeScript", "WordPress", "Shopify", "Vercel", "AWS"]
+  },
+  {
+    "id": 3,
+    "slug": "mobile-applications",
+    "title": "Mobile Applications",
+    "shortDescription": "Native and cross-platform mobile apps that deliver exceptional experiences on iOS and Android.",
+    "icon": "Smartphone",
+    "color": "from-violet-500 to-purple-600",
+    "fullDescription": "We design and develop mobile applications that users love. Whether you need a cross-platform app built with React Native or a fully native experience, our team delivers polished, performant apps that drive engagement and revenue.",
+    "features": [
+      "Cross-platform apps (React Native, Flutter)",
+      "Native iOS and Android development",
+      "UI/UX design tailored for mobile",
+      "Push notifications and real-time features",
+      "Offline-first architecture",
+      "App Store and Google Play deployment",
+      "In-app purchases and subscriptions",
+      "Analytics and crash reporting"
+    ],
+    "benefits": [
+      {
+        "title": "Faster Time to Market",
+        "description": "Cross-platform development reaches both platforms simultaneously with shared code."
+      },
+      {
+        "title": "Native Performance",
+        "description": "Smooth 60fps animations and native device API access without compromise."
+      },
+      {
+        "title": "Engaging UX",
+        "description": "Intuitive gestures, micro-interactions, and platform-native design patterns."
+      },
+      {
+        "title": "Ongoing Support",
+        "description": "Post-launch maintenance, updates, and feature additions on your schedule."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Strategy", "description": "Define app goals, target audience, and key metrics." },
+      { "step": 2, "title": "Prototyping", "description": "Interactive prototypes to validate flows before development." },
+      { "step": 3, "title": "Development", "description": "Agile sprints with continuous builds and testing on real devices." },
+      { "step": 4, "title": "Testing", "description": "QA across device types, OS versions, and network conditions." },
+      { "step": 5, "title": "Launch", "description": "App Store submission, ASO, and launch monitoring." }
+    ],
+    "faqs": [
+      { "question": "Cross-platform or native — which is better?", "answer": "It depends on your needs. Cross-platform (React Native) is faster and cheaper for most apps. Native is best for complex animations, heavy graphics, or platform-specific features." },
+      { "question": "Do you handle App Store submissions?", "answer": "Yes, we manage the entire submission process including screenshots, descriptions, and compliance with store guidelines." },
+      { "question": "Can you integrate with existing backend systems?", "answer": "Absolutely. We integrate with REST, GraphQL, or custom APIs to connect your app with existing infrastructure." }
+    ],
+    "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "Expo", "App Center", "RevenueCat"]
+  },
+  {
+    "id": 4,
+    "slug": "graphics-and-branding",
+    "title": "Graphics & Branding",
+    "shortDescription": "Complete brand identity design including logos, typography, color systems, and visual guidelines.",
+    "icon": "Palette",
+    "color": "from-pink-500 to-rose-600",
+    "fullDescription": "Your brand is the first impression you make. We craft cohesive visual identities that communicate your values, differentiate you from competitors, and create lasting emotional connections with your audience.",
+    "features": [
+      "Logo and mark design",
+      "Brand identity and visual systems",
+      "Typography and color palette",
+      "Business cards, stationery, collateral",
+      "Brand guidelines and style guides",
+      "Packaging and product design",
+      "Social media templates",
+      "Presentation templates"
+    ],
+    "benefits": [
+      {
+        "title": "Cohesive Identity",
+        "description": "Every touchpoint — from your website to your business card — feels unmistakably yours."
+      },
+      {
+        "title": "Stand Out",
+        "description": "A professionally crafted brand cuts through noise and commands attention in your market."
+      },
+      {
+        "title": "Scalable System",
+        "description": "Comprehensive guidelines ensure your brand stays consistent as you grow."
+      },
+      {
+        "title": "Expert Craft",
+        "description": "Designed by experienced professionals who understand color theory, typography, and visual psychology."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Research", "description": "Market analysis, competitor audit, and brand discovery workshops." },
+      { "step": 2, "title": "Concept", "description": "Multiple design directions presented with rationale and mood boards." },
+      { "step": 3, "title": "Refinement", "description": "Iterative feedback rounds to hone the chosen direction." },
+      { "step": 4, "title": "Delivery", "description": "Final assets in all formats plus a comprehensive brand guidelines document." }
+    ],
+    "faqs": [
+      { "question": "What is included in a brand identity package?", "answer": "Our standard package includes logo (primary, secondary, icon), color palette, typography selection, business card design, and a brand guidelines PDF." },
+      { "question": "How many revisions do I get?", "answer": "We include up to three rounds of revisions to ensure you love the final result." },
+      { "question": "Do you also design for digital and print?", "answer": "Yes. All assets are delivered in formats optimized for web, social media, and print production." }
+    ],
+    "technologies": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign", "After Effects"]
+  },
+  {
+    "id": 5,
+    "slug": "photography",
+    "title": "Photography",
+    "shortDescription": "Professional photography services for products, events, corporate headshots, and commercial campaigns.",
+    "icon": "Camera",
+    "color": "from-amber-500 to-orange-600",
+    "fullDescription": "We capture stunning, high-resolution photography that elevates your brand. From product shots that drive sales to corporate portraits that build trust, our photographers bring professional lighting, composition, and post-production to every shoot.",
+    "features": [
+      "Product and e-commerce photography",
+      "Corporate headshots and team portraits",
+      "Event and conference coverage",
+      "Architectural and interior photography",
+      "Food and lifestyle photography",
+      "Commercial and advertising shoots",
+      "Drone and aerial photography",
+      "Photo editing and retouching"
+    ],
+    "benefits": [
+      {
+        "title": "Professional Quality",
+        "description": "Studio-grade lighting, high-resolution cameras, and expert composition in every shot."
+      },
+      {
+        "title": "Brand Consistent",
+        "description": "We match your brand aesthetic across all images for a cohesive visual presence."
+      },
+      {
+        "title": "Quick Turnaround",
+        "description": "Edited, retouched images delivered within 48 hours for most projects."
+      },
+      {
+        "title": "On-Location or Studio",
+        "description": "We shoot at your location or in our studio — whatever works best for your needs."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Briefing", "description": "Understand the purpose, style, and deliverables for the shoot." },
+      { "step": 2, "title": "Planning", "description": "Location scouting, lighting setup, shot list creation." },
+      { "step": 3, "title": "Shoot", "description": "Professional photography session with direction and real-time review." },
+      { "step": 4, "title": "Post-Production", "description": "Color grading, retouching, and final asset delivery." }
+    ],
+    "faqs": [
+      { "question": "What equipment do you use?", "answer": "We shoot with professional-grade Canon and Sony cameras, prime lenses, and studio lighting equipment." },
+      { "question": "Do you travel for shoots?", "answer": "Yes, we are available for local and international assignments. Travel costs are quoted separately." },
+      { "question": "How are images delivered?", "answer": "Images are delivered via secure cloud gallery in full-resolution JPEG and TIFF formats, with optional RAW files." }
+    ],
+    "technologies": ["Canon EOS R5", "Sony A7 IV", "Adobe Lightroom", "Capture One", "Photoshop"]
+  },
+  {
+    "id": 6,
+    "slug": "videography",
+    "title": "Videography",
+    "shortDescription": "Cinematic video production from concept to final cut — commercials, promos, tutorials, and brand stories.",
+    "icon": "Video",
+    "color": "from-red-500 to-rose-600",
+    "fullDescription": "We produce compelling video content that captures attention and communicates your message with emotional impact. From concept development and scripting to filming, editing, and color grading — we handle the entire production pipeline.",
+    "features": [
+      "Commercials and advertisements",
+      "Brand films and company profiles",
+      "Product demos and explainers",
+      "Event coverage and highlights",
+      "Music videos",
+      "Training and tutorial videos",
+      "Social media content (Reels, Shorts, TikToks)",
+      "Animation and motion graphics"
+    ],
+    "benefits": [
+      {
+        "title": "Full Production Pipeline",
+        "description": "Concept, scripting, filming, editing, color grading, and sound design — all in-house."
+      },
+      {
+        "title": "Cinematic Quality",
+        "description": "Professional cameras, lighting, drones, and stabilizers for stunning visuals."
+      },
+      {
+        "title": "Engaging Storytelling",
+        "description": "We craft narratives that connect emotionally with your audience and drive action."
+      },
+      {
+        "title": "Multi-Format Delivery",
+        "description": "Optimized versions for TV, web, social media, and in-platform advertising."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Pre-Production", "description": "Concept development, scripting, storyboarding, and casting." },
+      { "step": 2, "title": "Production", "description": "Filming with professional crew, equipment, and direction." },
+      { "step": 3, "title": "Post-Production", "description": "Editing, color grading, sound design, and visual effects." },
+      { "step": 4, "title": "Delivery", "description": "Final export in required formats and resolutions." }
+    ],
+    "faqs": [
+      { "question": "How long does a typical video take?", "answer": "A 60-second commercial takes 2–3 weeks from concept to delivery. Longer films and documentaries require 4–8 weeks." },
+      { "question": "Do you provide the script and storyboard?", "answer": "Yes, we handle concept development, scriptwriting, and storyboarding as part of our pre-production process." },
+      { "question": "Can you use our existing footage?", "answer": "Absolutely. We can incorporate your existing footage, photos, and brand assets into the final edit." }
+    ],
+    "technologies": ["Sony FX6", "DJI Ronin", "DaVinci Resolve", "Premiere Pro", "After Effects", "Fusion"]
+  },
+  {
+    "id": 7,
+    "slug": "content-creation",
+    "title": "Content Creation",
+    "shortDescription": "Strategic content that captivates — copywriting, social media content, blog posts, and multimedia storytelling.",
+    "icon": "PenTool",
+    "color": "from-sky-500 to-indigo-600",
+    "fullDescription": "We create content that informs, engages, and converts. From SEO-optimized blog posts to scroll-stopping social media content, our writers and creators produce material that amplifies your brand voice and drives measurable results.",
+    "features": [
+      "Copywriting and copyediting",
+      "Blog posts and articles",
+      "Social media content calendars",
+      "Email newsletters and campaigns",
+      "White papers and case studies",
+      "Video scripts and storyboards",
+      "Podcast production",
+      "Infographic and visual content"
+    ],
+    "benefits": [
+      {
+        "title": "Consistent Voice",
+        "description": "We maintain your brand tone across every piece of content, building recognition and trust."
+      },
+      {
+        "title": "SEO-Driven",
+        "description": "Every piece is optimized for search without sacrificing readability or engagement."
+      },
+      {
+        "title": "Scalable Production",
+        "description": "From a single blog post to a full content calendar — we scale to your needs."
+      },
+      {
+        "title": "Data Informed",
+        "description": "We analyze performance metrics to continuously refine and improve content strategy."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Strategy", "description": "Define content goals, audience personas, and channel strategy." },
+      { "step": 2, "title": "Creation", "description": "Research, writing, designing, and producing content assets." },
+      { "step": 3, "title": "Review", "description": "Editorial review, fact-checking, and brand alignment." },
+      { "step": 4, "title": "Publish", "description": "Scheduled publishing across channels with performance tracking." }
+    ],
+    "faqs": [
+      { "question": "Do you create content for any industry?", "answer": "Yes, our team has experience across technology, healthcare, finance, lifestyle, education, and more." },
+      { "question": "How do you measure content success?", "answer": "We track engagement metrics, conversion rates, SEO rankings, and ROI through analytics dashboards." },
+      { "question": "Can you manage our social media accounts?", "answer": "Yes, we offer full social media management including content creation, scheduling, engagement, and reporting." }
+    ],
+    "technologies": ["Notion", "Canva", "Adobe Creative Suite", "WordPress", "Buffer", "Google Analytics"]
+  },
+  {
+    "id": 8,
+    "slug": "digital-marketing",
+    "title": "Digital Marketing",
+    "shortDescription": "Data-driven marketing campaigns across all channels to grow your reach, engagement, and conversions.",
+    "icon": "TrendingUp",
+    "color": "from-green-500 to-emerald-600",
+    "fullDescription": "We build and execute data-driven marketing strategies that deliver measurable growth. From paid advertising to organic reach, our campaigns are optimized continuously to maximize ROI and meet your business objectives.",
+    "features": [
+      "Paid advertising (Google, Meta, LinkedIn, TikTok)",
+      "Social media marketing and management",
+      "Email marketing and automation",
+      "Influencer and affiliate marketing",
+      "Conversion rate optimization (CRO)",
+      "Marketing analytics and reporting",
+      "A/B testing and experimentation",
+      "Retargeting and remarketing campaigns"
+    ],
+    "benefits": [
+      {
+        "title": "ROI Focused",
+        "description": "Every campaign is built around measurable KPIs and optimized for maximum return."
+      },
+      {
+        "title": "Multi-Channel Reach",
+        "description": "Coordinate presence across search, social, email, and display for maximum impact."
+      },
+      {
+        "title": "Real-Time Optimization",
+        "description": "Campaigns are adjusted daily based on performance data and market conditions."
+      },
+      {
+        "title": "Transparent Reporting",
+        "description": "Clear dashboards and regular reports show exactly where your budget is going."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Audit", "description": "Review current marketing efforts, analytics, and competitive landscape." },
+      { "step": 2, "title": "Strategy", "description": "Channel selection, budget allocation, and campaign roadmap." },
+      { "step": 3, "title": "Execution", "description": "Creative development, targeting setup, and campaign launch." },
+      { "step": 4, "title": "Optimize", "description": "Continuous A/B testing, bid optimization, and performance refinement." }
+    ],
+    "faqs": [
+      { "question": "What is your minimum ad spend?", "answer": "We recommend a minimum monthly ad spend of $1,000 for meaningful results, though this varies by industry and goals." },
+      { "question": "How soon will I see results?", "answer": "Paid campaigns typically show initial results within the first week. Organic strategies take 2–3 months to build momentum." },
+      { "question": "Do you manage the ad accounts directly?", "answer": "Yes, we manage all ad accounts directly, handling everything from setup to optimization and reporting." }
+    ],
+    "technologies": ["Google Ads", "Meta Ads Manager", "HubSpot", "Mailchimp", "Google Analytics", "SEMrush"]
+  },
+  {
+    "id": 9,
+    "slug": "seo",
+    "title": "SEO",
+    "shortDescription": "Search engine optimization that drives organic traffic with technical SEO, content strategy, and link building.",
+    "icon": "Search",
+    "color": "from-blue-500 to-cyan-600",
+    "fullDescription": "We help your business rank higher, get found more, and attract qualified organic traffic. Our holistic SEO approach combines technical audits, content strategy, and ethical link building to deliver sustainable search visibility.",
+    "features": [
+      "Technical SEO audits and fixes",
+      "On-page optimization",
+      "Content strategy and keyword research",
+      "Link building and digital PR",
+      "Local SEO (Google Business Profile)",
+      "E-commerce SEO",
+      "SEO migration support",
+      "Monthly reporting and analytics"
+    ],
+    "benefits": [
+      {
+        "title": "Sustainable Growth",
+        "description": "Organic traffic compounds over time — unlike ads, it keeps delivering without ongoing spend."
+      },
+      {
+        "title": "Higher Credibility",
+        "description": "Top search rankings build trust and position your brand as an industry authority."
+      },
+      {
+        "title": "Technical Foundation",
+        "description": "Core Web Vitals, structured data, and crawl optimization for maximum visibility."
+      },
+      {
+        "title": "Transparent Reporting",
+        "description": "Monthly reports with ranking data, traffic metrics, and actionable recommendations."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Audit", "description": "Technical crawl, competitor analysis, and keyword gap assessment." },
+      { "step": 2, "title": "Strategy", "description": "Content roadmap, link building plan, and technical prioritization." },
+      { "step": 3, "title": "Implementation", "description": "On-page optimization, content creation, and technical fixes." },
+      { "step": 4, "title": "Monitor", "description": "Ranking tracking, traffic analysis, and continuous refinement." }
+    ],
+    "faqs": [
+      { "question": "How long until I see SEO results?", "answer": "Most clients see measurable improvements within 3–6 months. SEO is a long-term investment that compounds over time." },
+      { "question": "Do you guarantee #1 rankings?", "answer": "No legitimate agency can guarantee #1 rankings. We guarantee data-driven strategies and continuous improvement in key metrics." },
+      { "question": "What is included in an SEO audit?", "answer": "Our audit covers technical health, on-page optimization, backlink profile, competitor analysis, content gaps, and Core Web Vitals." }
+    ],
+    "technologies": ["Ahrefs", "SEMrush", "Google Search Console", "Screaming Frog", "Google Analytics", "Majestic"]
+  },
+  {
+    "id": 10,
+    "slug": "business-automation",
+    "title": "Business Automation",
+    "shortDescription": "Automate workflows, streamline operations, and eliminate repetitive tasks with intelligent automation solutions.",
+    "icon": "Bot",
+    "color": "from-purple-500 to-fuchsia-600",
+    "fullDescription": "We identify and eliminate operational bottlenecks through intelligent automation. From workflow orchestration to AI-powered process optimization, we help your team focus on high-value work while software handles the rest.",
+    "features": [
+      "Workflow automation and orchestration",
+      "CRM and ERP automation",
+      "Email and notification automation",
+      "Document generation and processing",
+      "Data integration and ETL pipelines",
+      "AI-powered process optimization",
+      "Robotic process automation (RPA)",
+      "Custom dashboard and reporting"
+    ],
+    "benefits": [
+      {
+        "title": "Cut Operational Costs",
+        "description": "Reduce manual labor costs by 40–60% through intelligent process automation."
+      },
+      {
+        "title": "Eliminate Errors",
+        "description": "Automated workflows eliminate human errors in repetitive data entry and processing tasks."
+      },
+      {
+        "title": "Scale Without Headcount",
+        "description": "Handle growing volumes without proportional increases in staff or overhead."
+      },
+      {
+        "title": "Real-Time Visibility",
+        "description": "Dashboards and alerts give you instant insight into every automated process."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Map current workflows, identify bottlenecks, and quantify automation potential." },
+      { "step": 2, "title": "Design", "description": "Architect automated workflows, integration points, and exception handling." },
+      { "step": 3, "title": "Build", "description": "Develop automation scripts, integrations, and user interfaces." },
+      { "step": 4, "title": "Deploy", "description": "Staged rollout with training, documentation, and ongoing support." }
+    ],
+    "faqs": [
+      { "question": "What processes can be automated?", "answer": "Invoice processing, email responses, data entry, report generation, lead routing, inventory management, and more. We start with a full audit to identify the highest-impact opportunities." },
+      { "question": "Do I need to replace my existing software?", "answer": "Rarely. We integrate with your existing tools — CRMs, ERPs, accounting software, and custom applications — to automate across your current stack." },
+      { "question": "How is automation measured?", "answer": "We track time saved, error reduction, throughput increase, and ROI. Most clients see full payback within 3–6 months." }
+    ],
+    "technologies": ["Zapier", "Make", "n8n", "Python", "Power Automate", "UiPath", "Node.js", "OpenAI API"]
+  },
+  {
+    "id": 11,
+    "slug": "music-production",
+    "title": "Music Production",
+    "shortDescription": "Professional music production from composition to final master — beats, instrumentals, scoring, and full-track production.",
+    "icon": "Music4",
+    "color": "from-teal-500 to-emerald-600",
+    "fullDescription": "We produce high-quality music tailored to your creative vision. From original compositions and beat-making to full-track production, mixing, and mastering, our studio delivers professional-grade audio for artists, brands, and media projects.",
+    "features": [
+      "Original compositions and songwriting",
+      "Beat and instrumental production",
+      "Vocal recording and tuning",
+      "Mixing and mastering",
+      "Film and media scoring",
+      "Jingle and advertisement music",
+      "Podcast audio production",
+      "Sound design and foley"
+    ],
+    "benefits": [
+      {
+        "title": "Studio Quality",
+        "description": "Professional-grade recording, mixing, and mastering with industry-standard equipment and software."
+      },
+      {
+        "title": "Full Creative Control",
+        "description": "Collaborate closely with our producers to shape every element of your sound."
+      },
+      {
+        "title": "Fast Turnaround",
+        "description": "From demo to final master in days, not weeks — without compromising quality."
+      },
+      {
+        "title": "Any Genre",
+        "description": "Experience across hip-hop, pop, electronic, orchestral, lo-fi, and commercial music."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Brief", "description": "Understand your vision, reference tracks, genre, and project requirements." },
+      { "step": 2, "title": "Composition", "description": "Create original instrumentation, melodies, and arrangements." },
+      { "step": 3, "title": "Recording", "description": "Record vocals, live instruments, and additional layers." },
+      { "step": 4, "title": "Mix & Master", "description": "Balance, polish, and finalize for all playback systems." }
+    ],
+    "faqs": [
+      { "question": "Do you produce any genre?", "answer": "Yes, our producers have experience across hip-hop, pop, electronic, lo-fi, orchestral, rock, and commercial music." },
+      { "question": "Can you work with my existing recordings?", "answer": "Absolutely. We can mix and master your existing recordings to give them a professional finish." },
+      { "question": "Do you offer unlimited revisions?", "answer": "We include up to three rounds of revisions. Additional revisions can be arranged." }
+    ],
+    "technologies": ["Pro Tools", "Logic Pro", "Ableton Live", "FL Studio", "iZotope", "Waves", "Native Instruments", "Universal Audio"]
+  },
+  {
+    "id": 12,
+    "slug": "digital-distribution-and-promotion",
+    "title": "Digital Distribution & Promotion",
+    "shortDescription": "Get your music on Spotify, Apple Music, and all major platforms with strategic promotion and playlist pitching.",
+    "icon": "Share2",
+    "color": "from-amber-500 to-yellow-600",
+    "fullDescription": "We handle end-to-end digital distribution and promotion for your music. From getting your tracks on every major streaming platform to pitching playlists, running ad campaigns, and building your audience — we amplify your reach so you can focus on creating.",
+    "features": [
+      "Distribution to 150+ streaming platforms",
+      "Spotify, Apple Music, YouTube Music, Amazon Music",
+      "Playlist pitching and curation",
+      "Social media promotion campaigns",
+      "Influencer and blogger outreach",
+      "Press release and PR distribution",
+      "Analytics and streaming data reporting",
+      "Royalty collection and management"
+    ],
+    "benefits": [
+      {
+        "title": "Global Reach",
+        "description": "Your music distributed to every major platform worldwide — Spotify, Apple Music, TikTok, and more."
+      },
+      {
+        "title": "Playlist Placement",
+        "description": "Strategic pitching to editorial and independent playlists for maximum streaming growth."
+      },
+      {
+        "title": "Data-Driven Promotion",
+        "description": "Targeted ad campaigns based on listener analytics and engagement patterns."
+      },
+      {
+        "title": "Full Transparency",
+        "description": "Real-time dashboards showing streams, revenue, audience demographics, and campaign performance."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Setup", "description": "Prepare metadata, artwork, and audio files for distribution." },
+      { "step": 2, "title": "Distribution", "description": "Upload and submit to all major streaming platforms with accurate metadata." },
+      { "step": 3, "title": "Promotion", "description": "Playlist pitching, ad campaigns, social media strategy, and PR outreach." },
+      { "step": 4, "title": "Monitor", "description": "Track streams, revenue, audience growth, and optimize ongoing campaigns." }
+    ],
+    "faqs": [
+      { "question": "How long does distribution take?", "answer": "Tracks typically go live on most platforms within 3–5 business days. Spotify and Apple Music may take up to 2 weeks." },
+      { "question": "Do I keep 100% of my royalties?", "answer": "Yes. You retain 100% ownership and royalties. We charge a service fee for distribution and promotion services." },
+      { "question": "Can I distribute already-released music?", "answer": "Yes, provided you own the rights or have permission from the rights holders." }
+    ],
+    "technologies": ["DistroKid", "TuneCore", "Spotify for Artists", "Apple Music Connect", "Meta Ads Manager", "Chartmetric", "SoundCloud", "TikTok For Business"]
+  }
+]

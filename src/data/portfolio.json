@@ -1,0 +1,335 @@
+[
+  {
+    "id": 1,
+    "slug": "crm-automation-tool",
+    "title": "CRM Automation Tool",
+    "category": "Software",
+    "shortDescription": "Custom CRM with pipeline management, automated workflows, email integration, and real-time analytics dashboards.",
+    "fullDescription": "We built a comprehensive CRM platform that automates the entire sales pipeline. The system features drag-and-drop pipeline management, automated email sequences, lead scoring, and detailed analytics. Integration with existing tools like Slack, Gmail, and Calendar ensures seamless adoption. The result is a sales team that spends 60% less time on admin and 40% more time selling.",
+    "images": [
+      { "url": "https://picsum.photos/seed/crm-dashboard/800/500", "alt": "CRM Dashboard overview", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/crm-pipeline/800/600", "alt": "Pipeline management view", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/crm-analytics/800/550", "alt": "Analytics and reporting", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/crm-automation/800/650", "alt": "Workflow automation editor", "width": 800, "height": 650 },
+      { "url": "https://picsum.photos/seed/crm-integrations/800/480", "alt": "Integration settings", "width": 800, "height": 480 }
+    ],
+    "technologies": ["Python", "PostgreSQL", "Docker", "FastAPI", "React", "Redis", "Celery"],
+    "client": { "name": "CloudBase Inc.", "company": "CloudBase", "website": "#" },
+    "testimonial": {
+      "quote": "The CRM automation they built transformed our sales operations. We closed 35% more deals in the first quarter alone.",
+      "author": "James Park",
+      "role": "CTO, CloudBase"
+    },
+    "results": ["60% reduction in admin tasks", "35% increase in closed deals", "40% faster lead response time", "99.9% platform uptime"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "ai-analytics-dashboard",
+    "title": "AI-Powered Analytics Dashboard",
+    "category": "Software",
+    "shortDescription": "Real-time business intelligence platform with ML-driven insights, predictive forecasting, and custom report builder.",
+    "fullDescription": "An advanced analytics dashboard that uses machine learning to surface actionable business insights. The platform ingests data from multiple sources, cleans and transforms it automatically, and presents interactive visualizations. Predictive forecasting models help leadership make data-driven decisions. The custom report builder allows non-technical users to create complex reports in minutes.",
+    "images": [
+      { "url": "https://picsum.photos/seed/analytics-overview/800/500", "alt": "Analytics overview dashboard", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/analytics-charts/800/600", "alt": "Interactive charts", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/analytics-predictive/800/550", "alt": "Predictive forecasting view", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/analytics-reports/800/450", "alt": "Report builder interface", "width": 800, "height": 450 }
+    ],
+    "technologies": ["Python", "TensorFlow", "React", "D3.js", "PostgreSQL", "Apache Kafka", "Kubernetes"],
+    "client": { "name": "DataPulse", "company": "DataPulse Analytics", "website": "#" },
+    "testimonial": {
+      "quote": "We can now forecast revenue with 94% accuracy. The dashboard has become our single source of truth for every business decision.",
+      "author": "Dr. Aisha Patel",
+      "role": "CEO, DataPulse"
+    },
+    "results": ["94% forecast accuracy", "70% faster report generation", "3x data processing speed", "Single source of truth across 12 departments"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "category": "Websites",
+    "shortDescription": "High-performance React-based storefront with real-time inventory, AI recommendations, and sub-second page loads.",
+    "fullDescription": "A fully custom e-commerce platform built for scale. Features include real-time inventory sync across warehouses, AI-powered product recommendations, one-click checkout, and a headless CMS for marketing teams. The platform handles 10,000+ concurrent users with sub-second page loads, achieving a 25% conversion rate improvement over the previous solution.",
+    "images": [
+      { "url": "https://picsum.photos/seed/ecommerce-home/800/500", "alt": "E-commerce homepage", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/ecommerce-product/800/600", "alt": "Product detail page", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/ecommerce-cart/800/550", "alt": "Shopping cart experience", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/ecommerce-checkout/800/450", "alt": "Streamlined checkout", "width": 800, "height": 450 },
+      { "url": "https://picsum.photos/seed/ecommerce-dashboard/800/500", "alt": "Merchant dashboard", "width": 800, "height": 500 }
+    ],
+    "technologies": ["React", "Node.js", "Stripe", "Redis", "Next.js", "TypeScript", "AWS"],
+    "client": { "name": "Nexus Retail", "company": "Nexus Retail Group", "website": "#" },
+    "testimonial": {
+      "quote": "Our online sales doubled within three months of launch. The platform handles peak traffic effortlessly and the AI recommendations are incredible.",
+      "author": "Sarah Chen",
+      "role": "CEO, Nexus Retail"
+    },
+    "results": ["2x online sales growth", "25% conversion rate improvement", "40% faster page loads", "10,000+ concurrent users supported"],
+    "year": "2025",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "saas-landing-page",
+    "title": "SaaS Landing Page",
+    "category": "Websites",
+    "shortDescription": "Conversion-optimized landing page with interactive product demos, live chat, and integrated analytics.",
+    "fullDescription": "A high-conversion landing page for a B2B SaaS product. The design features interactive product walkthroughs, social proof sections, and a frictionless sign-up flow. A/B testing infrastructure was built in from day one, allowing the marketing team to continuously optimize. The page achieves a 12% conversion rate from visitor to trial sign-up.",
+    "images": [
+      { "url": "https://picsum.photos/seed/saas-hero/800/500", "alt": "SaaS landing page hero", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/saas-features/800/600", "alt": "Features section", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/saas-demo/800/550", "alt": "Interactive product demo", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/saas-pricing/800/450", "alt": "Pricing page", "width": 800, "height": 450 }
+    ],
+    "technologies": ["Next.js", "Framer Motion", "Vercel", "Segment", "Intercom", "PostHog"],
+    "client": { "name": "FlowState", "company": "FlowState Technologies", "website": "#" },
+    "testimonial": {
+      "quote": "The landing page converts like crazy. Our cost per lead dropped by 60% and the interactive demo is a game-changer for our sales team.",
+      "author": "Mike Torres",
+      "role": "VP Marketing, FlowState"
+    },
+    "results": ["12% visitor-to-trial conversion", "60% lower cost per lead", "40% increase in demo requests", "98 Lighthouse performance score"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "slug": "health-fitness-app",
+    "title": "Health & Fitness App",
+    "category": "Mobile Apps",
+    "shortDescription": "Cross-platform mobile app with workout tracking, meal planning, live coaching, and social community features.",
+    "fullDescription": "A comprehensive health and fitness application built with React Native, delivering a native experience on both iOS and Android. Features include AI-powered workout generation, meal planning with macro tracking, real-time live coaching sessions, and a social community feed. The app integrates with Apple Health and Google Fit for seamless activity tracking.",
+    "images": [
+      { "url": "https://picsum.photos/seed/fitness-workout/800/500", "alt": "Workout tracking screen", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/fitness-meals/800/600", "alt": "Meal planning interface", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/fitness-live/800/550", "alt": "Live coaching session", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/fitness-community/800/450", "alt": "Community feed", "width": 800, "height": 450 }
+    ],
+    "technologies": ["React Native", "Firebase", "WebSockets", "TensorFlow Lite", "RevenueCat", "Expo"],
+    "client": { "name": "HealthSync", "company": "HealthSync Inc.", "website": "#" },
+    "testimonial": {
+      "quote": "The app has a 4.8-star rating on both stores. Users love the AI workout generator and the live coaching feature keeps them coming back daily.",
+      "author": "Marcus Williams",
+      "role": "Founder, HealthSync"
+    },
+    "results": ["4.8-star app store rating", "200K+ downloads in first month", "65% monthly retention rate", "50% reduction in churn vs previous app"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "slug": "food-delivery-app",
+    "title": "Food Delivery App",
+    "category": "Mobile Apps",
+    "shortDescription": "On-demand food delivery platform with real-time tracking, smart ordering, and restaurant management dashboard.",
+    "fullDescription": "A full-stack food delivery ecosystem connecting customers, restaurants, and drivers. The customer app features smart search, personalized recommendations, real-time order tracking, and seamless payment. The restaurant dashboard handles menu management, order processing, and analytics. The driver app provides optimized routing and earnings tracking.",
+    "images": [
+      { "url": "https://picsum.photos/seed/food-browse/800/500", "alt": "Restaurant browsing", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/food-order/800/600", "alt": "Order placement flow", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/food-tracking/800/550", "alt": "Real-time delivery tracking", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/food-dashboard/800/450", "alt": "Restaurant dashboard", "width": 800, "height": 450 },
+      { "url": "https://picsum.photos/seed/food-driver/800/500", "alt": "Driver app interface", "width": 800, "height": 500 }
+    ],
+    "technologies": ["React Native", "Node.js", "PostgreSQL", "Redis", "Google Maps API", "Stripe", "Firebase"],
+    "client": { "name": "QuickBite", "company": "QuickBite Technologies", "website": "#" },
+    "results": ["500+ restaurant partners onboarded", "50K+ orders in launch month", "28-minute average delivery time", "4.5 average user rating"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "slug": "fintech-rebrand",
+    "title": "Fintech Rebrand",
+    "category": "Branding",
+    "shortDescription": "Complete brand overhaul including logo, typography, color system, and comprehensive design guidelines.",
+    "fullDescription": "A comprehensive rebrand for a growing fintech startup. We developed a new visual identity that communicates trust, innovation, and accessibility. The project included logo design (primary, secondary, and icon marks), a custom color system optimized for both digital and print, typography selection and pairing, and a 40-page brand guidelines document. The new identity rolled out across web, mobile, marketing materials, and office spaces.",
+    "images": [
+      { "url": "https://picsum.photos/seed/rebrand-logo/800/500", "alt": "Primary logo variations", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/rebrand-colors/800/600", "alt": "Color system exploration", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/rebrand-applied/800/550", "alt": "Brand applied to mockups", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/rebrand-guidelines/800/450", "alt": "Brand guidelines pages", "width": 800, "height": 450 }
+    ],
+    "technologies": ["Figma", "Adobe Illustrator", "After Effects", "Fontself"],
+    "client": { "name": "PayForward", "company": "PayForward Financial", "website": "#" },
+    "testimonial": {
+      "quote": "The rebrand completely changed how our customers perceive us. Brand recall increased by 80% and our NPS score jumped 25 points.",
+      "author": "Elena Rodriguez",
+      "role": "CMO, PayForward"
+    },
+    "results": ["80% increase in brand recall", "25-point NPS improvement", "40+ page brand guidelines", "100% consistency across all touchpoints"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "slug": "fashion-label-identity",
+    "title": "Fashion Label Identity",
+    "category": "Branding",
+    "shortDescription": "Luxury fashion brand identity including logo, packaging, lookbook design, and visual storytelling.",
+    "fullDescription": "A complete brand identity for a premium sustainable fashion label. The project encompassed logo design with custom lettering, a sophisticated color palette inspired by natural dyes, packaging design using eco-friendly materials, and a seasonal lookbook. Every element was crafted to reflect the brand's commitment to sustainability without compromising on luxury aesthetics.",
+    "images": [
+      { "url": "https://picsum.photos/seed/fashion-logo/800/500", "alt": "Fashion logo design", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/fashion-packaging/800/600", "alt": "Sustainable packaging", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/fashion-lookbook/800/550", "alt": "Seasonal lookbook spreads", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/fashion-bag/800/450", "alt": "Branded shopping bag", "width": 800, "height": 450 },
+      { "url": "https://picsum.photos/seed/fashion-stationery/800/500", "alt": "Brand stationery set", "width": 800, "height": 500 }
+    ],
+    "technologies": ["Figma", "Adobe InDesign", "Adobe Photoshop", "Procreate"],
+    "client": { "name": "Verde Studio", "company": "Verde Studio", "website": "#" },
+    "testimonial": {
+      "quote": "Our brand identity perfectly captures who we are. The packaging design has become a talking point — customers are posting unboxing videos organically.",
+      "author": "Amara Osei",
+      "role": "Creative Director, Verde Studio"
+    },
+    "results": ["Featured in Vogue Business", "40% increase in social media engagement", "300% increase in unboxing posts", "Luxury retailer partnerships secured"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "luxury-hotel-campaign",
+    "title": "Luxury Hotel Campaign",
+    "category": "Photography",
+    "shortDescription": "High-end architectural and lifestyle photography for a luxury hotel chain's global marketing campaign.",
+    "fullDescription": "A large-scale photography campaign for a luxury hotel group covering five properties across three continents. The brief required capturing the unique character of each location while maintaining brand consistency. Shots included architectural exteriors, interior design details, culinary presentations, and lifestyle moments with guests. The final set of 200+ images was delivered in multiple formats for web, print, and social media.",
+    "images": [
+      { "url": "https://picsum.photos/seed/hotel-exterior/800/500", "alt": "Hotel exterior architecture", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/hotel-lobby/800/600", "alt": "Grand lobby interior", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/hotel-room/800/550", "alt": "Luxury suite", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/hotel-dining/800/450", "alt": "Fine dining presentation", "width": 800, "height": 450 },
+      { "url": "https://picsum.photos/seed/hotel-spa/800/500", "alt": "Spa and wellness area", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/hotel-pool/800/600", "alt": "Infinity pool sunset", "width": 800, "height": 600 }
+    ],
+    "technologies": ["Canon EOS R5", "DJI Mavic 3", "Capture One", "Adobe Photoshop", "Phase One"],
+    "client": { "name": "Aurora Resorts", "company": "Aurora Luxury Resorts", "website": "#" },
+    "testimonial": {
+      "quote": "The photography captured the soul of each property. Our website engagement increased by 60% and the images were picked up by multiple travel publications.",
+      "author": "Victoria Ashford",
+      "role": "Brand Director, Aurora Resorts"
+    },
+    "results": ["200+ final edited images", "60% increase in website engagement", "Featured in 8 travel publications", "35% increase in direct bookings"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 10,
+    "slug": "product-catalog-shoot",
+    "title": "Product Catalog Shoot",
+    "category": "Photography",
+    "shortDescription": "E-commerce product photography for 500+ SKUs with consistent lighting, angles, and post-production workflow.",
+    "fullDescription": "A massive product photography project for an e-commerce brand expanding their online catalog. We developed a standardized photography system that ensured consistent lighting, angles, and styling across 500+ products. The workflow included automated background removal, color correction, and asset delivery through a custom DAM system. The project was completed in 3 weeks, ahead of the 5-week deadline.",
+    "images": [
+      { "url": "https://picsum.photos/seed/product-studio/800/500", "alt": "Studio setup with products", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/product-hero/800/600", "alt": "Hero product shot", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/product-lifestyle/800/550", "alt": "Lifestyle product image", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/product-detail/800/450", "alt": "Detail macro shot", "width": 800, "height": 450 }
+    ],
+    "technologies": ["Sony A7R IV", "Capture One", "Adobe Photoshop", "Photomyne", "DAM System"],
+    "client": { "name": "HomeLuxe", "company": "HomeLuxe Living", "website": "#" },
+    "results": ["500+ products photographed", "Delivered 2 weeks early", "60% reduction in per-product cost", "Consistent look across all catalog pages"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "slug": "brand-documentary",
+    "title": "Brand Documentary Film",
+    "category": "Videography",
+    "shortDescription": "Cinematic 8-minute brand documentary telling the story of a heritage manufacturing company's modernization journey.",
+    "fullDescription": "A cinematic brand documentary that weaves together the rich history of a 50-year-old manufacturing company with its ambitious modernization plans. The film combines archival footage, interview segments with leadership and long-time employees, and stunning cinematography of the modern factory floor. The documentary was used for investor relations, employee onboarding, and the company website.",
+    "images": [
+      { "url": "https://picsum.photos/seed/doc-interview/800/500", "alt": "Interview setup with founder", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/doc-factory/800/600", "alt": "Factory floor cinematography", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/doc-archival/800/550", "alt": "Archival footage integration", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/doc-team/800/450", "alt": "Team portrait session", "width": 800, "height": 450 }
+    ],
+    "technologies": ["Sony FX6", "DJI Ronin 2", "DaVinci Resolve", "Pro Tools", "After Effects"],
+    "client": { "name": "Meridian Manufacturing", "company": "Meridian Manufacturing Co.", "website": "#" },
+    "testimonial": {
+      "quote": "The documentary captured our story in a way that words never could. It's been viewed by every employee and is now a central part of our investor pitch.",
+      "author": "Robert Chen",
+      "role": "CEO, Meridian Manufacturing"
+    },
+    "results": ["8-minute final film", "150K+ views across platforms", "Used in 12 investor meetings", "94% positive feedback from employees"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 12,
+    "slug": "product-launch-film",
+    "title": "Product Launch Film",
+    "category": "Videography",
+    "shortDescription": "High-energy 60-second product launch commercial with motion graphics, 3D product visualization, and sound design.",
+    "fullDescription": "A high-impact product launch commercial for a new tech gadget. The film combines live-action footage with 3D product renders, kinetic typography, and a custom sound design score. The 60-second hero spot was cut into multiple versions for TV, social media, and in-store displays. The campaign generated significant buzz and contributed to a sold-out launch day.",
+    "images": [
+      { "url": "https://picsum.photos/seed/launch-storyboard/800/500", "alt": "Storyboard frames", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/launch-product/800/600", "alt": "3D product visualization", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/launch-motion/800/550", "alt": "Motion graphics sequences", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/launch-behind/800/450", "alt": "Behind the scenes", "width": 800, "height": 450 }
+    ],
+    "technologies": ["Sony FX6", "Blender", "Cinema 4D", "After Effects", "DaVinci Resolve", "Fusion"],
+    "client": { "name": "NovaTech", "company": "NovaTech Electronics", "website": "#" },
+    "testimonial": {
+      "quote": "The commercial perfectly communicated our product's value in 60 seconds. Launch day inventory sold out in 4 hours.",
+      "author": "David Kim",
+      "role": "Head of Marketing, NovaTech"
+    },
+    "results": ["Sold out in 4 hours", "2M+ views in first week", "Featured on TechCrunch", "5 platform-optimized versions"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "slug": "digital-product-launch",
+    "title": "Digital Product Launch Campaign",
+    "category": "Marketing Campaigns",
+    "shortDescription": "Multi-channel product launch campaign driving 10,000+ pre-orders through paid, organic, and influencer channels.",
+    "fullDescription": "A comprehensive go-to-market campaign for a new SaaS product. The strategy encompassed paid advertising across Google, LinkedIn, and Meta, an organic content calendar with thought leadership articles, an influencer program with 12 industry voices, and a referral engine. The campaign generated 10,000+ pre-orders in 30 days and achieved a 4.5x return on ad spend.",
+    "images": [
+      { "url": "https://picsum.photos/seed/launch-strategy/800/500", "alt": "Campaign strategy overview", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/launch-ads/800/600", "alt": "Paid ad creative suite", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/launch-influencer/800/550", "alt": "Influencer content", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/launch-analytics/800/450", "alt": "Campaign analytics dashboard", "width": 800, "height": 450 },
+      { "url": "https://picsum.photos/seed/launch-email/800/500", "alt": "Email sequence design", "width": 800, "height": 500 }
+    ],
+    "technologies": ["Google Ads", "Meta Ads Manager", "HubSpot", "SEMrush", "Klaviyo", "Looker"],
+    "client": { "name": "WorkflowPro", "company": "WorkflowPro Inc.", "website": "#" },
+    "testimonial": {
+      "quote": "The campaign exceeded every KPI we set. The multi-channel approach was exactly what we needed to break through the noise.",
+      "author": "Jessica Lin",
+      "role": "VP Growth, WorkflowPro"
+    },
+    "results": ["10,000+ pre-orders in 30 days", "4.5x ROAS", "12 influencer partnerships", "35% email conversion rate"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 14,
+    "slug": "social-awareness-campaign",
+    "title": "Social Media Awareness Campaign",
+    "category": "Marketing Campaigns",
+    "shortDescription": "Impact-driven social media campaign reaching 5M+ people with compelling storytelling and community engagement.",
+    "fullDescription": "A purpose-driven social media campaign for a non-profit organization focused on ocean conservation. The campaign combined powerful visual storytelling, educational content, user-generated content initiatives, and a viral challenge that spread across TikTok, Instagram, and LinkedIn. The campaign reached 5M+ people, drove 50,000+ petition signatures, and raised $200K+ in donations.",
+    "images": [
+      { "url": "https://picsum.photos/seed/social-creative/800/500", "alt": "Campaign creative assets", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/social-content/800/600", "alt": "Content calendar execution", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/social-viral/800/550", "alt": "Viral challenge content", "width": 800, "height": 550 },
+      { "url": "https://picsum.photos/seed/social-impact/800/450", "alt": "Impact report visualization", "width": 800, "height": 450 }
+    ],
+    "technologies": ["Meta Business Suite", "TikTok Ads", "Canva", "Hootsuite", "Google Analytics", "Looker"],
+    "client": { "name": "BlueOcean Foundation", "company": "BlueOcean Foundation", "website": "#" },
+    "testimonial": {
+      "quote": "This campaign changed the conversation around ocean conservation in our region. The reach and engagement exceeded anything we had done before.",
+      "author": "Dr. Kwame Asante",
+      "role": "Executive Director, BlueOcean Foundation"
+    },
+    "results": ["5M+ people reached", "50K+ petition signatures", "$200K+ donations raised", "3M+ video views"],
+    "year": "2025",
+    "featured": true
+  }
+]
