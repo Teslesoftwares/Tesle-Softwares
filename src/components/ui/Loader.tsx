@@ -1,6 +1,5 @@
 import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
-import './loader.css';
 
 const SEGMENTS = 6;
 const POINTS = 30;

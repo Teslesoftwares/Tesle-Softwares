@@ -7,6 +7,23 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    // Defer main CSS and remove unnecessary modulepreloads
+    {
+      name: 'defer-css-and-preloads',
+      enforce: 'post',
+      transformIndexHtml(html: string) {
+        const result = html
+          // Replace render-blocking CSS with deferred equivalent
+          .replace(
+            /<link rel="stylesheet" crossorigin href="(\/assets\/index-[^"]+\.css)">/,
+            (_, href) =>
+              `<link rel="preload" href="${href}" as="style" />\n    <link rel="stylesheet" media="print" onload="this.media='all'" crossorigin href="${href}" />`,
+          )
+          // Remove modulepreload for non-critical chunks (loaded by lazy MainSite)
+          .replace(/<link rel="modulepreload"[^>]*href="[^"]*vendor-(?:forms|motion|icons)[^"]*"[^>]*>\n?\s*/g, '');
+        return result;
+      },
+    },
   ],
   resolve: {
     alias: {
