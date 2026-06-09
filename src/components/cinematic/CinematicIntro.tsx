@@ -27,8 +27,13 @@ export default function CinematicIntro() {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    const id = requestAnimationFrame(() => setReady(true));
-    return () => cancelAnimationFrame(id);
+    const cb = () => setReady(true);
+    if ('requestIdleCallback' in window) {
+      const id = requestIdleCallback(cb, { timeout: 500 });
+      return () => cancelIdleCallback(id);
+    }
+    const id = setTimeout(cb, 500);
+    return () => clearTimeout(id);
   }, []);
 
   return (

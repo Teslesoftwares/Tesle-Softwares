@@ -108,35 +108,35 @@ export function Loader({ loaded, onLoaded }: LoaderProps) {
       },
     });
 
-    // Phase 0: dot (0-0.5s)
+    // Phase 0: dot (0-0.15s)
     tl.call(() => { phase = 0; }, [], 0);
-    tl.to(sphereObj, { val: 0, duration: 0.5 }, 0);
+    tl.to(sphereObj, { val: 0, duration: 0.15 }, 0);
 
-    // Phase 1: line appears + rotates, sphere travels (0.5-1.8s)
-    tl.call(() => { phase = 1; }, [], 0.5);
-    tl.to(sphereObj, { val: 1, duration: 1.3, ease: 'power2.inOut' }, 0.5);
+    // Phase 1: line appears + rotates, sphere travels (0.15-0.8s)
+    tl.call(() => { phase = 1; }, [], 0.15);
+    tl.to(sphereObj, { val: 1, duration: 0.65, ease: 'power2.inOut' }, 0.15);
 
-    // Phase 2: split + assemble logo (1.8-2.6s)
-    tl.call(() => { phase = 2; }, [], 1.8);
-    tl.to(splitObj, { val: 0, duration: 0.8, ease: 'power2.inOut' }, 1.8);
+    // Phase 2: split + assemble logo (0.8-1.3s)
+    tl.call(() => { phase = 2; }, [], 0.8);
+    tl.to(splitObj, { val: 0, duration: 0.5, ease: 'power2.inOut' }, 0.8);
 
-    // Phase 3: logo + text (2.6-3.2s)
+    // Phase 3: logo + text (1.3-1.6s)
     tl.call(() => {
       phase = 3;
       if (textRef.current) textRef.current.classList.add('visible');
-    }, [], 2.6);
+    }, [], 1.3);
 
-    // Phase 4: orbit (3.0-4.0s)
-    tl.call(() => { phase = 4; }, [], 3.0);
-    tl.to({}, { duration: 1.0 }, 3.0);
+    // Phase 4: orbit (1.6-2.2s)
+    tl.call(() => { phase = 4; }, [], 1.6);
+    tl.to({}, { duration: 0.6 }, 1.6);
 
-    // Phase 5: collapse (4.0-4.2s)
-    tl.call(() => { phase = 5; }, [], 4.0);
-    tl.to({}, { duration: 0.2 }, 4.0);
+    // Phase 5: collapse (2.2-2.3s)
+    tl.call(() => { phase = 5; }, [], 2.2);
+    tl.to({}, { duration: 0.1 }, 2.2);
 
-    // Phase 6: burst (4.2-4.5s)
-    tl.call(() => { phase = 6; }, [], 4.2);
-    tl.to({}, { duration: 0.3 }, 4.2);
+    // Phase 6: burst (2.3-2.5s)
+    tl.call(() => { phase = 6; }, [], 2.3);
+    tl.to({}, { duration: 0.2 }, 2.3);
 
     // -- star particles (for orbit phase) --
     function emitOrbitParticle(x: number, y: number) {
