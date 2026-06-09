@@ -11,7 +11,6 @@ import { ScrollToTop } from '@/components/ui/ScrollToTop';
 import { MusicPlayer } from '@/components/ui/MusicPlayer';
 import { LeadCapture } from '@/components/ui/LeadCapture';
 import { Loader } from '@/components/ui/Loader';
-import ComingSoon from '@/pages/ComingSoon';
 
 const AmbientBackground = lazy(() => import('@/components/layout/AmbientBackground'));
 
@@ -169,9 +168,5 @@ export default function App() {
 }
 
 function AppRouter() {
-  const location = useLocation();
-  if (location.pathname === '/') {
-    return <ComingSoon />;
-  }
   return <MainSite />;
 }
