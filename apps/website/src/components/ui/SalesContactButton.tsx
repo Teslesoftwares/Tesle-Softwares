@@ -36,8 +36,8 @@ const CONTACTS = [
   },
 ];
 
-const spring = { type: 'spring', stiffness: 300, damping: 25, mass: 0.8 };
-const smooth = { duration: 0.25, ease: [0.32, 0.08, 0.24, 1] };
+const spring = { type: 'spring' as const, stiffness: 300, damping: 25, mass: 0.8 };
+const smooth = { duration: 0.25, ease: [0.32, 0.08, 0.24, 1] as const };
 
 const container = {
   hidden: { opacity: 0, y: 16, scale: 0.9 },
@@ -51,7 +51,7 @@ const container = {
     opacity: 0,
     y: 12,
     scale: 0.95,
-    transition: { duration: 0.18, ease: 'easeIn' },
+    transition: { duration: 0.18, ease: 'easeIn' as const },
   },
 };
 

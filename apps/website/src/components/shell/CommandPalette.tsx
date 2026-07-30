@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import { type LucideIcon } from 'lucide-react';
 import {
   Search, Command, ArrowRight, Home, Box, Brain, Lightbulb, Briefcase,
   DollarSign, Newspaper, Code2, Headphones, BookOpen, Building2, Users,
@@ -11,7 +12,7 @@ interface CommandItem {
   id: string;
   label: string;
   description?: string;
-  icon: React.ElementType;
+  icon: LucideIcon;
   href: string;
   category: string;
 }

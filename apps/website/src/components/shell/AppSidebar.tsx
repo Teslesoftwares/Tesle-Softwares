@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import { type LucideIcon } from 'lucide-react';
 import {
   ChevronLeft, ChevronRight, Search, Home, Box, Lightbulb,
   Building2, BookOpen, DollarSign, Briefcase, Headphones,
@@ -19,10 +20,10 @@ import { products } from '@/data/products';
 interface NavItem {
   id: string;
   label: string;
-  icon: React.ElementType;
+  icon: LucideIcon;
   href?: string;
   badge?: number;
-  children?: { id: string; label: string; icon: React.ElementType; href: string }[];
+  children?: { id: string; label: string; icon: LucideIcon; href: string }[];
 }
 
 const mainNav: NavItem[] = [
@@ -51,7 +52,7 @@ const secondaryNav: NavItem[] = [
   { id: 'resources', label: 'Resources', icon: BookOpen, href: '/resources' },
 ];
 
-const productIconMap: Record<string, React.ElementType> = {};
+const productIconMap: Record<string, LucideIcon> = {};
 products.forEach((p) => { productIconMap[p.slug] = p.icon; });
 
 export function AppSidebar() {
@@ -69,9 +70,9 @@ export function AppSidebar() {
       const product = products.find((p) => p.slug === slug);
       if (!product) return null;
       const icon = productIconMap[slug] || Box;
-      return { id: slug, label: product.name.replace('Tesle ', ''), desc: product.tagline, icon, href: `/products/${slug}` };
+      return { id: slug, label: product.name.replace('Tesle ', ''), desc: product.tagline, icon: icon as unknown as LucideIcon, href: `/products/${slug}` };
     })
-    .filter(Boolean) as { id: string; label: string; desc: string; icon: React.ElementType; href: string }[];
+    .filter(Boolean) as { id: string; label: string; desc: string; icon: LucideIcon; href: string }[];
 
   return (
     <aside

@@ -33,8 +33,8 @@ export default defineConfig({
           const id = req.url?.replace(/^\//, '') || '';
           const targetUrl = MP3_URLS[id];
           if (!targetUrl) { res.statusCode = 404; res.end('Not found'); return; }
-          const opts = new URL(targetUrl);
-          opts.headers = { 'User-Agent': 'Mozilla/5.0', Accept: '*/*' };
+          const url = new URL(targetUrl);
+          const opts: https.RequestOptions & { headers: Record<string, string> } = { ...url, headers: { 'User-Agent': 'Mozilla/5.0', Accept: '*/*' } };
           https.get(opts, (proxyRes) => {
             if (!proxyRes.statusCode || proxyRes.statusCode >= 400) {
               res.statusCode = 502;

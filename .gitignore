@@ -1,6 +1,9 @@
 node_modules/
 dist/
 .npm-cache/
+release/
+*.asar
+playlist/
 build/
 .env
 .env.local

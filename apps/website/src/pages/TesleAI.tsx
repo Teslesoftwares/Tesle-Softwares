@@ -83,7 +83,7 @@ const orbitItems = [
 export default function TesleAI() {
   const product = getProductBySlug('ai');
   const [blink, setBlink] = useState(false);
-  const blinkRef = useRef<ReturnType<typeof setTimeout>>();
+  const blinkRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {

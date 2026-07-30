@@ -65,7 +65,7 @@ export function MascotCompanion() {
   const [blink, setBlink] = useState(false);
   const [hover, setHover] = useState(false);
   const [winWidth, setWinWidth] = useState(0);
-  const prevBlink = useRef<ReturnType<typeof setTimeout>>();
+  const prevBlink = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   useEffect(() => {
     setWinWidth(window.innerWidth);
