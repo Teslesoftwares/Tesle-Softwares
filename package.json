@@ -1,39 +1,31 @@
 {
-  "name": "tesle-ai",
+  "name": "tesle-platform",
   "private": true,
   "version": "1.0.0",
+  "description": "The AI-native operating system for African businesses. Unified ERP, CRM, HRM, Financials, Analytics, and more.",
+  "author": "Tesle",
   "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "products/*"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/generate-sitemap.mjs",
-    "preview": "vite preview",
-    "postbuild": "node scripts/generate-sitemap.mjs"
-  },
-  "dependencies": {
-    "@hookform/resolvers": "^5.4.0",
-    "@react-three/drei": "^10.7.7",
-    "@react-three/fiber": "^9.6.1",
-    "@react-three/postprocessing": "^3.0.4",
-    "framer-motion": "^12.40.0",
-    "gsap": "^3.15.0",
-    "lucide-react": "^1.17.0",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "react-helmet-async": "^3.0.0",
-    "react-hook-form": "^7.77.0",
-    "react-router-dom": "^7.17.0",
-    "three": "^0.184.0",
-    "zod": "^4.4.3"
+    "dev": "npm run dev --workspace=apps/website",
+    "dev:admin": "npm run dev --workspace=apps/admin",
+    "dev:portal": "npm run dev --workspace=apps/portal",
+    "dev:workspace": "npm run dev --workspace=apps/workspace",
+    "build": "npm run build --workspace=apps/website",
+    "build:all": "npm run build --workspaces --if-present",
+    "build:pkgs": "npm run build --workspace=packages/ui --workspace=packages/auth --workspace=packages/permissions --workspace=packages/database --workspace=packages/sdk",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "clean": "rm -rf apps/*/dist apps/*/node_modules packages/*/dist packages/*/node_modules products/*/dist products/*/node_modules node_modules"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.0",
-    "@types/node": "^25.9.2",
-    "@types/react": "^19.1.4",
-    "@types/react-dom": "^19.1.5",
-    "@types/three": "^0.184.1",
-    "@vitejs/plugin-react": "^6.0.2",
-    "tailwindcss": "^4.3.0",
-    "typescript": "~6.0.3",
-    "vite": "^8.0.16"
+    "typescript": "~6.0.3"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
   }
 }

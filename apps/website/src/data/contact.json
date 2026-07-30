@@ -1,0 +1,65 @@
+{
+  "whatsapp": {
+    "number": "233538387208",
+    "message": "Hi Tesle! I'd like to discuss a project."
+  },
+  "email": {
+    "general": "hello@teslesoftwares.com",
+    "sales": "hello@teslesoftwares.com",
+    "support": "hitesle@gmail.com",
+    "careers": "hello@teslesoftwares.com"
+  },
+  "offices": [
+    {
+      "id": 1,
+      "name": "Accra (HQ)",
+      "address": "23 Independence Avenue, Ridge, Accra, Ghana",
+      "phone": "+23353 838 7208",
+      "email": "hello@teslesoftwares.com",
+      "lat": 5.5600,
+      "lng": -0.1800,
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Kumasi",
+      "address": "45 Prempeh II Street, Adum, Kumasi, Ghana",
+      "phone": "+233 32 200 8910",
+      "email": "hello@teslesoftwares.com",
+      "lat": 6.6871,
+      "lng": -1.6219,
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Takoradi",
+      "address": "12 Market Circle, Takoradi, Ghana",
+      "phone": "+233 31 200 3344",
+      "email": "hello@teslesoftwares.com",
+      "lat": 4.8845,
+      "lng": -1.7554,
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80",
+      "featured": false
+    }
+  ],
+  "hours": [
+    { "day": "Monday – Friday", "hours": "8:00 AM – 6:00 PM" },
+    { "day": "Saturday", "hours": "9:00 AM – 2:00 PM" },
+    { "day": "Sunday", "hours": "Closed" }
+  ],
+  "serviceInquiries": [
+    { "value": "software-development", "label": "Software Development" },
+    { "value": "website-development", "label": "Website Development" },
+    { "value": "mobile-applications", "label": "Mobile App Development" },
+    { "value": "graphics-and-branding", "label": "Graphics & Branding" },
+    { "value": "photography", "label": "Photography" },
+    { "value": "videography", "label": "Videography" },
+    { "value": "content-creation", "label": "Content Creation" },
+    { "value": "digital-marketing", "label": "Digital Marketing" },
+    { "value": "seo", "label": "SEO" },
+    { "value": "business-automation", "label": "Business Automation" },
+    { "value": "other", "label": "Other / General Inquiry" }
+  ]
+}

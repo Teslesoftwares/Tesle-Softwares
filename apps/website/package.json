@@ -1,0 +1,51 @@
+{
+  "name": "@tesle/website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Tesle — AI-native enterprise software for African businesses",
+  "author": "Tesle",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "compile:electron": "tsc -p electron/tsconfig.json",
+    "dev:electron": "npm run compile:electron && vite & sleep 2 && electron .",
+    "build": "tsc -b && vite build && node scripts/generate-sitemap.mjs",
+    "build:electron": "vite build && tsc -p electron/tsconfig.json && electron-builder --config electron-builder.config.mjs",
+    "build:electron:mac": "vite build && tsc -p electron/tsconfig.json && electron-builder --config electron-builder.config.mjs --mac",
+    "build:electron:win": "vite build && tsc -p electron/tsconfig.json && electron-builder --config electron-builder.config.mjs --win",
+    "build:electron:linux": "vite build && tsc -p electron/tsconfig.json && electron-builder --config electron-builder.config.mjs --linux",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.4.0",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/postprocessing": "^3.0.4",
+    "@tesle/ui": "*",
+    "framer-motion": "^12.40.0",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.17.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-helmet-async": "^3.0.0",
+    "react-hook-form": "^7.77.0",
+    "react-router-dom": "^7.17.0",
+    "three": "^0.184.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/node": "^25.9.2",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@types/three": "^0.184.1",
+    "@vitejs/plugin-react": "^6.0.2",
+    "electron": "43.2.0",
+    "electron-builder": "^26.0.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.0.16"
+  }
+}

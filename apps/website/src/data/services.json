@@ -1,0 +1,591 @@
+[
+  {
+    "id": 1,
+    "slug": "enterprise-erp",
+    "title": "Tesle ERP",
+    "shortDescription": "A unified enterprise resource planning platform that connects finance, operations, HR, and supply chain into one intelligent system.",
+    "icon": "LayoutDashboard",
+    "color": "from-cyan-500 to-blue-600",
+    "fullDescription": "Tesle ERP is the core operating system for your business. It integrates every department  finance, procurement, inventory, manufacturing, HR, and sales  onto a single, real-time platform. Powered by AI, it automates workflows, surfaces predictive insights, and eliminates the fragmentation of running multiple disconnected systems.",
+    "features": [
+      "Unified general ledger and financial management",
+      "Procurement and vendor management",
+      "Inventory and warehouse control",
+      "Manufacturing and production planning",
+      "Order-to-cash and procure-to-pay automation",
+      "Multi-entity and multi-currency support",
+      "AI-powered demand forecasting and anomaly detection",
+      "Real-time dashboards and regulatory compliance reporting"
+    ],
+    "benefits": [
+      {
+        "title": "Single Source of Truth",
+        "description": "Replace disjointed spreadsheets and siloed software with one unified platform every department works from."
+      },
+      {
+        "title": "AI-Driven Efficiency",
+        "description": "Predictive analytics and intelligent automation reduce manual effort by up to 60% across operations."
+      },
+      {
+        "title": "Real-Time Visibility",
+        "description": "Live dashboards give leadership instant insight into cash flow, inventory, production, and profitability."
+      },
+      {
+        "title": "Africa-Ready Compliance",
+        "description": "Built-in support for local tax regimes, regulatory reporting, and multi-currency operations across African markets."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Deep-dive workshops to map your current workflows, pain points, and integration requirements." },
+      { "step": 2, "title": "Configure", "description": "Tailored setup of modules, permissions, workflows, and integrations aligned to your business." },
+      { "step": 3, "title": "Migrate", "description": "Secure data migration from legacy systems with validation and reconciliation." },
+      { "step": 4, "title": "Train", "description": "Hands-on team training and change management to ensure adoption across your organization." },
+      { "step": 5, "title": "Optimize", "description": "Continuous monitoring, AI model tuning, and iterative improvements post-launch." }
+    ],
+    "faqs": [
+      { "question": "How long does ERP implementation take?", "answer": "A typical deployment takes 8–16 weeks depending on scope. We use a phased approach to minimise business disruption." },
+      { "question": "Can Tesle ERP integrate with our existing software?", "answer": "Yes. Tesle ERP includes a comprehensive API layer and pre-built connectors for popular accounting, banking, and payroll systems." },
+      { "question": "Is Tesle ERP suitable for small businesses?", "answer": "Absolutely. We offer modular deployments so you start with what you need and add capabilities as you grow." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Redis", "Docker", "Kubernetes", "TensorFlow"]
+  },
+  {
+    "id": 2,
+    "slug": "crm-platform",
+    "title": "Tesle CRM",
+    "shortDescription": "An AI-powered customer relationship platform that unifies sales, marketing, and customer service into one engine.",
+    "icon": "Users",
+    "color": "from-emerald-500 to-teal-600",
+    "fullDescription": "Tesle CRM gives your entire revenue team a single, intelligent platform to acquire, retain, and grow customer relationships. Powered by AI, it automates lead scoring, forecasts revenue, personalizes communications, and surfaces the next best action for every customer interaction.",
+    "features": [
+      "Pipeline management and deal tracking",
+      "AI-powered lead scoring and routing",
+      "Email sequencing and campaign automation",
+      "Customer service and help desk",
+      "Contract and quote management",
+      "AI sales forecasting and revenue intelligence",
+      "360-degree customer view with activity history",
+      "Mobile CRM for field teams"
+    ],
+    "benefits": [
+      {
+        "title": "AI-Powered Pipeline",
+        "description": "Machine learning models score leads, predict close probability, and recommend the next best action for every deal."
+      },
+      {
+        "title": "Unified Customer View",
+        "description": "Every interaction, email, call, and support ticket in one timeline  no more context switching."
+      },
+      {
+        "title": "Accurate Forecasting",
+        "description": "AI-driven revenue intelligence gives leadership pipeline visibility with 94% forecast accuracy."
+      },
+      {
+        "title": "Mobile-First Field Sales",
+        "description": "Your team can manage deals, log activities, and access customer data from anywhere, offline-capable."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Audit", "description": "Review current sales processes, data quality, and tool integrations." },
+      { "step": 2, "title": "Configure", "description": "Customize pipelines, fields, automation rules, and access controls." },
+      { "step": 3, "title": "Integrate", "description": "Connect email, telephony, calendar, and existing data sources." },
+      { "step": 4, "title": "Launch", "description": "Team onboarding, data migration, and go-live with ongoing support." }
+    ],
+    "faqs": [
+      { "question": "Can I import data from my existing CRM?", "answer": "Yes. We provide tools to migrate data from Salesforce, HubSpot, Zoho, and most major CRM platforms." },
+      { "question": "How does AI lead scoring work?", "answer": "Our models analyze historical conversion data, engagement patterns, and firmographic signals to score leads automatically." },
+      { "question": "Is there a mobile app?", "answer": "Yes. Tesle CRM includes a full-featured mobile app for iOS and Android with offline capabilities." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Redis", "TensorFlow", "NLP", "WebSockets"]
+  },
+  {
+    "id": 3,
+    "slug": "hr-workforce",
+    "title": "Tesle HRM",
+    "shortDescription": "A complete human capital management platform covering the entire employee journey from hire to retire.",
+    "icon": "Briefcase",
+    "color": "from-violet-500 to-purple-600",
+    "fullDescription": "Tesle HRM digitizes and automates every aspect of workforce management. From recruitment and onboarding to performance reviews, payroll, and succession planning  our AI-native platform helps you build, manage, and retain world-class teams across Africa.",
+    "features": [
+      "Applicant tracking and recruitment pipeline",
+      "Employee onboarding and offboarding",
+      "Performance management and OKR tracking",
+      "Leave and attendance management",
+      "Time tracking and timesheets",
+      "Trainings and certifications",
+      "Employee self-service portal",
+      "Organizational chart and headcount planning"
+    ],
+    "benefits": [
+      {
+        "title": "End-to-End HR Lifecycle",
+        "description": "From job posting to offboarding  every stage of the employee journey managed in one platform."
+      },
+      {
+        "title": "AI-Powered Talent Matching",
+        "description": "Smart candidate matching and skills gap analysis to help you build the right teams faster."
+      },
+      {
+        "title": "Employee Self-Service",
+        "description": "Empower employees to manage leave, expenses, documents, and personal info without HR tickets."
+      },
+      {
+        "title": "Local Compliance Ready",
+        "description": "Built-in support for statutory deductions, Social Security, PAYE, and labour law compliance across African countries."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Setup", "description": "Configure org structure, roles, permissions, and compliance settings." },
+      { "step": 2, "title": "Import", "description": "Migrate employee data, payroll history, and leave balances from existing systems." },
+      { "step": 3, "title": "Launch", "description": "Team training, manager enablement, and self-service portal activation." },
+      { "step": 4, "title": "Optimize", "description": "Continuous improvement with AI-driven insights, engagement surveys, and retention analytics." }
+    ],
+    "faqs": [
+      { "question": "Does Tesle HRM handle payroll?", "answer": "Yes. Our Payroll module integrates seamlessly with HRM for automated payroll processing, statutory deductions, and payslip generation." },
+      { "question": "Can employees request leave through the system?", "answer": "Yes. The employee self-service portal allows leave requests, approvals, and balance tracking without HR intervention." },
+      { "question": "Is it compliant with local labour laws?", "answer": "Yes. We continuously update compliance rules for all major African markets including Ghana, Nigeria, Kenya, South Africa, and Rwanda." }
+    ],
+    "technologies": ["React", "Node.js", "PostgreSQL", "Redis", "Python", "Docker", "NLP"]
+  },
+  {
+    "id": 4,
+    "slug": "financial-management",
+    "title": "Tesle Financials",
+    "shortDescription": "An intelligent financial management platform for accounting, budgeting, treasury, and compliance.",
+    "icon": "Landmark",
+    "color": "from-pink-500 to-rose-600",
+    "fullDescription": "Tesle Financials gives you complete control over your organization's finances. From accounts payable and receivable to budgeting, treasury management, and multi-entity consolidation  our AI-powered platform provides real-time financial intelligence and ensures compliance with local and international accounting standards.",
+    "features": [
+      "General ledger and chart of accounts",
+      "Accounts payable and receivable",
+      "Budgeting, forecasting, and scenario planning",
+      "Multi-entity consolidation",
+      "Treasury and cash flow management",
+      "Fixed asset management and depreciation",
+      "Tax computation and filing support",
+      "Audit trails and compliance reporting"
+    ],
+    "benefits": [
+      {
+        "title": "Real-Time Financial Intelligence",
+        "description": "Live dashboards show cash position, burn rate, revenue, and profitability across entities."
+      },
+      {
+        "title": "Africa-Ready Compliance",
+        "description": "Built-in support for IFRS, GAAP, VAT, Withholding Tax, and local statutory requirements."
+      },
+      {
+        "title": "AI-Powered Forecasting",
+        "description": "Predict cash flow, detect anomalies, and model scenarios with machine learning."
+      },
+      {
+        "title": "Audit-Ready Records",
+        "description": "Complete audit trails, approval workflows, and document management for every transaction."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Chart Setup", "description": "Configure chart of accounts, tax codes, and fiscal year settings." },
+      { "step": 2, "title": "Migration", "description": "Secure transfer of historical data, open balances, and reconciliations." },
+      { "step": 3, "title": "Integration", "description": "Connect bank feeds, payment gateways, and existing accounting tools." },
+      { "step": 4, "title": "Go Live", "description": "Team training, parallel run, and full cutover with ongoing support." }
+    ],
+    "faqs": [
+      { "question": "Does Tesle Financials support multi-currency?", "answer": "Yes. Full multi-currency support with real-time exchange rates, auto-revaluation, and gain/loss recognition." },
+      { "question": "Can I connect my bank accounts?", "answer": "Yes. We support bank feed integration for automated reconciliation across major African and international banks." },
+      { "question": "Is it IFRS compliant?", "answer": "Yes. Tesle Financials supports IFRS, GAAP, and local GAAP standards with configurable reporting frameworks." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Redis", "Docker", "Machine Learning"]
+  },
+  {
+    "id": 5,
+    "slug": "project-portfolio",
+    "title": "Tesle Project",
+    "shortDescription": "An enterprise project and portfolio management platform for planning, tracking, and delivering work at scale.",
+    "icon": "Kanban",
+    "color": "from-amber-500 to-orange-600",
+    "fullDescription": "Tesle Project is your organization's command centre for work. Whether you're managing agile sprints, waterfall programmes, or hybrid portfolios  our platform gives you the visibility, collaboration tools, and AI-powered insights to deliver projects on time and on budget.",
+    "features": [
+      "Project planning and scheduling with Gantt charts",
+      "Agile boards (Scrum, Kanban, hybrid)",
+      "Portfolio management and resource capacity planning",
+      "Time tracking and timesheets",
+      "Budget tracking and cost management",
+      "Risk and issue management",
+      "AI-powered timeline forecasting",
+      "Client-facing project portals"
+    ],
+    "benefits": [
+      {
+        "title": "Unified Work Management",
+        "description": "Plan, track, and deliver all work  from daily tasks to strategic programmes  in one platform."
+      },
+      {
+        "title": "AI Timeline Forecasting",
+        "description": "Machine learning predicts delivery dates based on historical velocity, team capacity, and task dependencies."
+      },
+      {
+        "title": "Resource Optimization",
+        "description": "See who's overallocated or underutilized and balance workloads across your entire portfolio."
+      },
+      {
+        "title": "Client Collaboration",
+        "description": "Shared project portals give clients real-time visibility into progress, milestones, and deliverables."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Workspace Setup", "description": "Configure project templates, workflows, permissions, and reporting frameworks." },
+      { "step": 2, "title": "Migration", "description": "Import existing projects, tasks, and history from spreadsheets or legacy tools." },
+      { "step": 3, "title": "Team Onboarding", "description": "Role-based training for project managers, team members, and executive stakeholders." },
+      { "step": 4, "title": "Continuous Improvement", "description": "Regular retrospectives, AI model training, and process optimization." }
+    ],
+    "faqs": [
+      { "question": "Does Tesle Project support both agile and waterfall methodologies?", "answer": "Yes. Our platform supports Scrum, Kanban, waterfall, and hybrid approaches within the same workspace." },
+      { "question": "Can clients see project progress?", "answer": "Yes. Client portals provide restricted views of timelines, deliverables, and milestones with comment capabilities." },
+      { "question": "How does AI forecasting work?", "answer": "Our models analyze historical sprint data, task dependencies, and team velocity to predict realistic delivery dates with 90%+ accuracy." }
+    ],
+    "technologies": ["React", "Node.js", "PostgreSQL", "Redis", "WebSockets", "Docker", "Machine Learning"]
+  },
+  {
+    "id": 6,
+    "slug": "business-intelligence",
+    "title": "Tesle Analytics",
+    "shortDescription": "An AI-powered business intelligence platform that transforms raw data into real-time strategic insights.",
+    "icon": "BarChart3",
+    "color": "from-red-500 to-rose-600",
+    "fullDescription": "Tesle Analytics is the intelligence layer of your business. It connects to every Tesle module and external data source to deliver real-time dashboards, predictive forecasts, and AI-driven recommendations. Make faster, smarter decisions with data you can trust.",
+    "features": [
+      "Drag-and-drop dashboard builder",
+      "Real-time data visualization and exploration",
+      "AI-powered predictive analytics and forecasting",
+      "Automated report scheduling and distribution",
+      "Natural language query (ask questions in plain English)",
+      "Custom KPI tracking and goal management",
+      "Embedded analytics for partner portals",
+      "Data export and API access"
+    ],
+    "benefits": [
+      {
+        "title": "AI-Driven Insights",
+        "description": "Ask questions in plain English and get instant visual answers powered by natural language processing."
+      },
+      {
+        "title": "Real-Time Decision Making",
+        "description": "Live dashboards update as data changes  no more stale spreadsheets or delayed reports."
+      },
+      {
+        "title": "Unified Data Layer",
+        "description": "Connect data from Tesle modules, external databases, APIs, and spreadsheets into one analytics hub."
+      },
+      {
+        "title": "Predictive Intelligence",
+        "description": "Machine learning models forecast trends, detect anomalies, and surface opportunities before they emerge."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Connect", "description": "Integrate data sources  Tesle modules, external databases, APIs, and file uploads." },
+      { "step": 2, "title": "Model", "description": "Define metrics, dimensions, and data models that reflect your business logic." },
+      { "step": 3, "title": "Build", "description": "Create dashboards, reports, and alerts tailored to each team and stakeholder." },
+      { "step": 4, "title": "Train", "description": "Enable teams to explore data independently with natural language queries and guided analytics." }
+    ],
+    "faqs": [
+      { "question": "Can I connect data from outside Tesle?", "answer": "Yes. Our analytics platform connects to any SQL database, REST API, cloud storage, or spreadsheet." },
+      { "question": "How does natural language query work?", "answer": "Type questions like 'What was our revenue last quarter by region?' and our AI generates the visualization instantly." },
+      { "question": "Can I embed dashboards in my app?", "answer": "Yes. Tesle Analytics supports embedded dashboards for customer-facing portals and partner applications." }
+    ],
+    "technologies": ["Python", "React", "PostgreSQL", "ClickHouse", "D3.js", "TensorFlow", "NLP", "Apache Kafka"]
+  },
+  {
+    "id": 7,
+    "slug": "customer-support",
+    "title": "Tesle Support",
+    "shortDescription": "An AI-native customer experience platform with omnichannel ticketing, self-service, and intelligent automation.",
+    "icon": "HeadphonesIcon",
+    "color": "from-sky-500 to-indigo-600",
+    "fullDescription": "Tesle Support transforms how you serve customers. Unify email, chat, phone, WhatsApp, and social media into one intelligent queue. AI agents handle common queries, route complex issues to the right team, and surface knowledge base articles instantly  so your customers get answers faster.",
+    "features": [
+      "Omnichannel ticketing (email, chat, WhatsApp, social)",
+      "AI-powered chatbot and virtual agent",
+      "Knowledge base and self-service portal",
+      "SLA management and escalation workflows",
+      "Automated ticket routing and prioritization",
+      "Customer satisfaction (CSAT) and NPS tracking",
+      "Multi-brand and multi-language support",
+      "Reporting and performance analytics"
+    ],
+    "benefits": [
+      {
+        "title": "AI-First Service",
+        "description": "AI virtual agents resolve up to 60% of queries without human intervention, 24/7."
+      },
+      {
+        "title": "Omnichannel Unity",
+        "description": "Every conversation  email, WhatsApp, chat, social  in one unified inbox with full context."
+      },
+      {
+        "title": "WhatsApp-Native",
+        "description": "Deep WhatsApp Business API integration for the channel African customers prefer most."
+      },
+      {
+        "title": "Self-Service Power",
+        "description": "AI-powered knowledge base suggests articles as customers type, reducing ticket volume."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Channel Setup", "description": "Connect email, WhatsApp Business API, chat widget, and social media channels." },
+      { "step": 2, "title": "Knowledge Base", "description": "Build and organize your help centre with AI-assisted article creation." },
+      { "step": 3, "title": "AI Training", "description": "Train the virtual agent on your knowledge base and common query patterns." },
+      { "step": 4, "title": "Go Live", "description": "Agent onboarding, SLA configuration, and continuous AI model improvement." }
+    ],
+    "faqs": [
+      { "question": "Does Tesle Support integrate with WhatsApp?", "answer": "Yes. We offer deep WhatsApp Business API integration including automated replies, rich messaging, and template management." },
+      { "question": "How accurate is the AI chatbot?", "answer": "After training on your knowledge base, our AI resolves 50-60% of queries autonomously with continuous improvement through feedback loops." },
+      { "question": "Can we have multiple brands on one instance?", "answer": "Yes. Tesle Support supports multi-brand, multi-language configurations with isolated agent portals and reporting." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Redis", "NLP", "WhatsApp API", "WebSockets"]
+  },
+  {
+    "id": 8,
+    "slug": "supply-chain-logistics",
+    "title": "Tesle Supply",
+    "shortDescription": "An intelligent supply chain platform that optimizes procurement, logistics, and vendor relationships.",
+    "icon": "Truck",
+    "color": "from-green-500 to-emerald-600",
+    "fullDescription": "Tesle Supply gives you end-to-end visibility and control over your supply chain. From strategic sourcing and procurement to warehouse management and last-mile delivery  our AI-powered platform optimizes every link in your supply chain, reducing costs and improving reliability.",
+    "features": [
+      "Strategic sourcing and supplier management",
+      "Purchase order and contract management",
+      "Warehouse and inventory optimization",
+      "Logistics and fleet management",
+      "AI-powered demand and supply planning",
+      "Supplier performance scoring",
+      "Real-time shipment tracking",
+      "Procurement analytics and spend management"
+    ],
+    "benefits": [
+      {
+        "title": "AI Supply Planning",
+        "description": "Machine learning forecasts demand, optimizes inventory levels, and prevents stockouts or overstocking."
+      },
+      {
+        "title": "Vendor Intelligence",
+        "description": "Supplier scorecards, performance tracking, and automated onboarding ensure vendor quality."
+      },
+      {
+        "title": "Logistics Optimization",
+        "description": "Route optimization, fleet tracking, and delivery scheduling reduce logistics costs by up to 25%."
+      },
+      {
+        "title": "End-to-End Visibility",
+        "description": "Track every order from procurement to delivery with real-time status updates and alerts."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Discovery", "description": "Map your supply chain workflows, pain points, and integration requirements." },
+      { "step": 2, "title": "Configure", "description": "Set up supplier catalogues, pricing rules, approval workflows, and logistics zones." },
+      { "step": 3, "title": "Integrate", "description": "Connect with existing ERPs, carriers, and payment gateways." },
+      { "step": 4, "title": "Optimize", "description": "AI model training, process refinement, and continuous improvement cycles." }
+    ],
+    "faqs": [
+      { "question": "Can Tesle Supply integrate with my existing ERP?", "answer": "Yes. We offer pre-built connectors for major ERP systems and custom API integration for any platform." },
+      { "question": "Does it support multi-warehouse operations?", "answer": "Yes. Manage unlimited warehouses with real-time inventory sync, transfer orders, and cycle counting." },
+      { "question": "How does AI demand forecasting work?", "answer": "Our models analyze historical sales, seasonality, market trends, and external factors to predict demand with high accuracy." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Redis", "Machine Learning", "Google Maps API"]
+  },
+  {
+    "id": 9,
+    "slug": "payroll-compliance",
+    "title": "Tesle Payroll",
+    "shortDescription": "An automated payroll platform with statutory compliance, benefits management, and employee self-service.",
+    "icon": "Receipt",
+    "color": "from-blue-500 to-cyan-600",
+    "fullDescription": "Tesle Payroll automates the entire payroll cycle from timesheet import to payslip generation. With built-in compliance for every African market, automated tax computations, and seamless integration with Tesle HRM and Financials, your team gets paid accurately and on time  every time.",
+    "features": [
+      "Automated payroll processing",
+      "Statutory deductions (SSNIT, PAYE, NHIF, etc.)",
+      "Benefits and allowances management",
+      "Payslip generation and distribution",
+      "Tax computation and filing reports",
+      "Loan and advance management",
+      "Year-end processing and P30/P35 forms",
+      "Integration with banking partners for bulk payments"
+    ],
+    "benefits": [
+      {
+        "title": "Africa-Wide Compliance",
+        "description": "Pre-configured statutory rules for Ghana, Nigeria, Kenya, South Africa, Rwanda, and more."
+      },
+      {
+        "title": "Zero-Touch Payroll",
+        "description": "Timesheets auto-sync from Tesle HRM, approvals route automatically, and payroll runs on schedule."
+      },
+      {
+        "title": "Employee Self-Service",
+        "description": "Employees access payslips, tax documents, and leave balances from any device."
+      },
+      {
+        "title": "Audit-Ready Records",
+        "description": "Complete payroll history, tax filings, and compliance reports available on demand."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Setup", "description": "Configure pay grades, deductions, benefits, and statutory compliance rules." },
+      { "step": 2, "title": "Connect", "description": "Integrate with Tesle HRM, time tracking, and banking partners." },
+      { "step": 3, "title": "Parallel Run", "description": "Run payroll in parallel with existing process to validate accuracy." },
+      { "step": 4, "title": "Full Migration", "description": "Cutover to Tesle Payroll with team training and ongoing support." }
+    ],
+    "faqs": [
+      { "question": "Does Tesle Payroll handle multiple countries?", "answer": "Yes. You can run payroll for employees in different countries from a single instance, each with its own statutory rules." },
+      { "question": "Can employees access their payslips online?", "answer": "Yes. The employee self-service portal provides secure access to payslips, tax certificates, and historical records." },
+      { "question": "How do you handle tax updates?", "answer": "We monitor regulatory changes continuously and deploy tax table updates automatically to ensure ongoing compliance." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Redis", "Docker", "Banking APIs"]
+  },
+  {
+    "id": 10,
+    "slug": "inventory-warehouse",
+    "title": "Tesle Inventory",
+    "shortDescription": "A real-time inventory and warehouse management system with AI-powered stock optimization.",
+    "icon": "Package",
+    "color": "from-purple-500 to-fuchsia-600",
+    "fullDescription": "Tesle Inventory gives you complete control over stock across unlimited locations. With barcode scanning, bin management, cycle counting, and AI-powered reorder predictions  you'll never run out of stock or tie up capital in excess inventory again.",
+    "features": [
+      "Multi-warehouse inventory management",
+      "Bin, shelf, and lot tracking",
+      "Barcode and QR code scanning",
+      "AI-powered reorder point optimization",
+      "Stock transfer and adjustment workflows",
+      "Cycle counting and physical inventory",
+      "Serial number and batch tracking",
+      "Inventory valuation (FIFO, LIFO, weighted average)"
+    ],
+    "benefits": [
+      {
+        "title": "AI Stock Optimization",
+        "description": "Predictive algorithms set reorder points automatically based on lead time, demand, and seasonality."
+      },
+      {
+        "title": "Real-Time Accuracy",
+        "description": "Barcode scanning and cycle counting maintain 99.5%+ inventory accuracy across all locations."
+      },
+      {
+        "title": "Multi-Warehouse Visibility",
+        "description": "Single pane of glass showing stock levels, movements, and value across unlimited warehouses."
+      },
+      {
+        "title": "Cost Control",
+        "description": "Multiple valuation methods (FIFO, LIFO, weighted average) with automated cost calculations."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Warehouse Setup", "description": "Configure locations, bins, aisles, and storage zones in the system." },
+      { "step": 2, "title": "Catalog Import", "description": "Import product master data, categories, and initial stock quantities." },
+      { "step": 3, "title": "Hardware Setup", "description": "Deploy barcode scanners, label printers, and mobile devices." },
+      { "step": 4, "title": "Go Live", "description": "Team training, parallel count validation, and full system activation." }
+    ],
+    "faqs": [
+      { "question": "Does Tesle Inventory support barcode scanning?", "answer": "Yes. We support Bluetooth barcode scanners, camera-based scanning via mobile app, and label printing." },
+      { "question": "Can I manage multiple warehouses?", "answer": "Yes. Unlimited warehouses with real-time stock transfers, zone-based picking, and consolidated reporting." },
+      { "question": "How does AI reordering work?", "answer": "The system analyzes historical consumption, lead times, and seasonality to suggest optimal reorder points and quantities." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Redis", "Machine Learning", "WebSockets"]
+  },
+  {
+    "id": 11,
+    "slug": "communication-collaboration",
+    "title": "Tesle Connect",
+    "shortDescription": "An enterprise communication and collaboration hub with messaging, video, and document collaboration.",
+    "icon": "MessageSquare",
+    "color": "from-teal-500 to-emerald-600",
+    "fullDescription": "Tesle Connect keeps your organization connected. With team messaging, video conferencing, document co-editing, and project workspaces  it's the digital workplace for Africa's most ambitious businesses. Deeply integrated with every Tesle module, context switching is a thing of the past.",
+    "features": [
+      "Team messaging and channels",
+      "Video and audio conferencing",
+      "Document co-editing and version control",
+      "Workspace and project collaboration",
+      "File sharing with permissions",
+      "Activity feeds and notifications",
+      "Mobile and desktop apps",
+      "Integration with Tesle modules (contextual conversations)"
+    ],
+    "benefits": [
+      {
+        "title": "Contextual Collaboration",
+        "description": "Every conversation is linked to the relevant record  deal, project, ticket, or employee  so context is never lost."
+      },
+      {
+        "title": "Unified Digital Workplace",
+        "description": "Messaging, documents, meetings, and tasks in one platform  no more switching between Slack, Zoom, and Google Drive."
+      },
+      {
+        "title": "Built for Africa's Connectivity",
+        "description": "Optimized for variable bandwidth with offline support, message compression, and low-data mode."
+      },
+      {
+        "title": "Enterprise Security",
+        "description": "End-to-end encryption, SSO, audit logging, and data residency controls for compliance."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Workspace Setup", "description": "Configure teams, channels, permissions, and integration with Tesle modules." },
+      { "step": 2, "title": "Identity Setup", "description": "Configure SSO, directory sync, and access policies." },
+      { "step": 3, "title": "Migration", "description": "Import historical messages, files, and workspaces from existing tools." },
+      { "step": 4, "title": "Launch", "description": "Company-wide rollout, team training, and adoption tracking." }
+    ],
+    "faqs": [
+      { "question": "Can I migrate from Slack or Microsoft Teams?", "answer": "Yes. We provide migration tools for Slack, Teams, and Google Workspace including message history and file archives." },
+      { "question": "Does it work on low-bandwidth connections?", "answer": "Yes. Tesle Connect is designed for Africa's connectivity reality with offline mode, message compression, and adaptive streaming." },
+      { "question": "Is it secure enough for enterprise use?", "answer": "Yes. End-to-end encryption, SSO/SAML, audit trails, and data residency controls are included in every plan." }
+    ],
+    "technologies": ["React", "Node.js", "PostgreSQL", "Redis", "WebRTC", "WebSockets", "Docker"]
+  },
+  {
+    "id": 12,
+    "slug": "platform-api",
+    "title": "Tesle Platform",
+    "shortDescription": "A low-code application builder and integration platform to extend and customize your Tesle ecosystem.",
+    "icon": "Blocks",
+    "color": "from-cyan-500 to-teal-600",
+    "fullDescription": "Tesle Platform gives you the power to build custom applications, automate complex workflows, and connect any third-party service  without writing code from scratch. Extend your Tesle ecosystem with tailored solutions that fit your unique business processes.",
+    "features": [
+      "Visual application builder with drag-and-drop",
+      "Custom workflow and process automation",
+      "Form and portal builder",
+      "REST and GraphQL API gateway",
+      "Webhook and event-driven integration",
+      "Pre-built connectors for 100+ services",
+      "Custom role-based access control",
+      "Sandbox and deployment environments"
+    ],
+    "benefits": [
+      {
+        "title": "Build Without Limits",
+        "description": "Create custom applications tailored to your unique processes using a visual builder  no coding required."
+      },
+      {
+        "title": "Connect Everything",
+        "description": "API gateway with 100+ pre-built connectors and custom integration support for any third-party service."
+      },
+      {
+        "title": "Automate Anything",
+        "description": "Visual workflow builder lets you create complex multi-step automations without engineering tickets."
+      },
+      {
+        "title": "Enterprise Governance",
+        "description": "Sandbox environments, version control, approval workflows, and audit trails for all customizations."
+      }
+    ],
+    "process": [
+      { "step": 1, "title": "Workshop", "description": "Identify automation opportunities and custom application requirements." },
+      { "step": 2, "title": "Design", "description": "Map workflows, design interfaces, and plan integrations." },
+      { "step": 3, "title": "Build", "description": "Configure using visual builder with iterative testing." },
+      { "step": 4, "title": "Deploy", "description": "Publish to production with monitoring, training, and documentation." }
+    ],
+    "faqs": [
+      { "question": "Do I need coding skills to use Tesle Platform?", "answer": "No. The visual builder allows non-technical users to create applications and workflows. For advanced needs, our API and SDK support custom development." },
+      { "question": "Can I connect to third-party APIs?", "answer": "Yes. Our API gateway supports REST, GraphQL, and webhooks with pre-built connectors for popular services." },
+      { "question": "Can I build customer-facing portals?", "answer": "Yes. The portal builder lets you create branded customer and partner portals with secure access controls." }
+    ],
+    "technologies": ["React", "Node.js", "Python", "PostgreSQL", "Docker", "Kubernetes", "GraphQL", "REST"]
+  }
+]

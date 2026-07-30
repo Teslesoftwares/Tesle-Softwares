@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "slug": "tesle-erp-rollout",
+    "title": "Tesle ERP  Manufacturing Giant",
+    "category": "ERP",
+    "shortDescription": "Full ERP implementation for a multinational manufacturing company, replacing 7 legacy systems with one unified platform.",
+    "fullDescription": "We deployed Tesle ERP across a multinational manufacturing operation with 12 factories, 8 warehouses, and 3,000+ employees. The implementation replaced 7 legacy systems  including disparate accounting, inventory, and HR platforms  with a single unified operating system. The result: 40% reduction in operational costs, real-time visibility across the entire supply chain, and AI-driven demand forecasting that reduced stockouts by 60%.",
+    "images": [
+      { "url": "https://picsum.photos/seed/erp-dashboard/800/500", "alt": "Tesle ERP executive dashboard", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/erp-finance/800/600", "alt": "Financial management module", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/erp-supply/800/550", "alt": "Supply chain control tower", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle ERP", "Tesle Analytics", "Tesle Payroll", "PostgreSQL", "Docker", "Machine Learning"],
+    "client": { "name": "Kofi Mensah", "company": "West African Manufacturing Group", "website": "#" },
+    "testimonial": {
+      "quote": "Tesle ERP eliminated the chaos of running 7 different systems. We now have one source of truth for finance, inventory, HR, and operations  and our AI-powered demand forecasts have transformed our supply chain.",
+      "author": "Kofi Mensah",
+      "role": "COO, West African Manufacturing Group"
+    },
+    "results": ["40% reduction in operational costs", "60% fewer stockouts with AI demand forecasting", "7 legacy systems decommissioned", "3,000+ employees on one platform"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "financial-services-crm",
+    "title": "Tesle CRM  Pan-African Bank",
+    "category": "CRM",
+    "shortDescription": "AI-powered CRM deployment for a pan-African bank, unifying 500+ branches across 15 countries.",
+    "fullDescription": "We deployed Tesle CRM across a pan-African financial institution with 500+ branches spanning 15 countries. The platform unified sales, customer service, and marketing into a single 360-degree customer view. AI-powered lead scoring and next-best-action recommendations increased cross-sell revenue by 35%, while the omnichannel service desk improved customer satisfaction scores by 28 points.",
+    "images": [
+      { "url": "https://picsum.photos/seed/crm-pipeline/800/500", "alt": "CRM pipeline overview", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/crm-analytics/800/600", "alt": "Customer analytics dashboard", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/crm-service/800/550", "alt": "Service desk interface", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle CRM", "Tesle Support", "Tesle Analytics", "NLP", "WebSockets", "Redis"],
+    "client": { "name": "Dr. Amina Diallo", "company": "United African Bank", "website": "#" },
+    "testimonial": {
+      "quote": "Tesle CRM gave us a complete view of our customers for the first time. The AI-driven insights have transformed how we cross-sell and serve  our NPS jumped 28 points in the first quarter.",
+      "author": "Dr. Amina Diallo",
+      "role": "Chief Digital Officer, United African Bank"
+    },
+    "results": ["35% increase in cross-sell revenue", "28-point NPS improvement", "500+ branches unified", "15-country deployment"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "government-hr-platform",
+    "title": "Tesle HRM  Public Service Commission",
+    "category": "HRM",
+    "shortDescription": "Enterprise HR platform for a public service organization managing 50,000+ government employees.",
+    "fullDescription": "We deployed Tesle HRM for a public service commission managing 50,000+ government employees across multiple agencies. The platform digitized the entire employee lifecycle  from recruitment and onboarding to performance management and pension processing. Automated payroll integration saved 15,000+ hours of manual data entry annually, and the self-service portal gave every employee direct access to their records.",
+    "images": [
+      { "url": "https://picsum.photos/seed/hrm-directory/800/500", "alt": "Employee directory dashboard", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/hrm-payroll/800/600", "alt": "Payroll processing interface", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/hrm-portal/800/550", "alt": "Employee self-service portal", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle HRM", "Tesle Payroll", "Tesle Analytics", "PostgreSQL", "Redis"],
+    "client": { "name": "Elizabeth Akua", "company": "Ghana Public Service Commission", "website": "#" },
+    "testimonial": {
+      "quote": "Managing 50,000+ employees across dozens of agencies was an enormous challenge. Tesle HRM gave us a unified platform that transformed everything from recruitment to pension management.",
+      "author": "Elizabeth Akua",
+      "role": "Director of HR, Public Service Commission"
+    },
+    "results": ["50,000+ employees managed on one platform", "15,000+ hours saved annually", "100% digitized employee lifecycle", "Automated payroll for 200+ agencies"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "retail-analytics-platform",
+    "title": "Tesle Analytics  Retail Chain",
+    "category": "Analytics",
+    "shortDescription": "AI business intelligence platform for a retail chain with 200+ stores across West Africa.",
+    "fullDescription": "We deployed Tesle Analytics for a major retail chain operating 200+ stores across 5 West African countries. The platform ingests data from POS systems, inventory management, and customer loyalty programs to deliver real-time dashboards, predictive inventory forecasts, and AI-driven promotion optimization. The result: 22% revenue increase and 18% reduction in inventory carrying costs.",
+    "images": [
+      { "url": "https://picsum.photos/seed/analytics-dash/800/500", "alt": "Executive analytics dashboard", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/analytics-forecast/800/600", "alt": "Predictive forecasting view", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/analytics-mobile/800/550", "alt": "Mobile analytics experience", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle Analytics", "Tesle Inventory", "Machine Learning", "ClickHouse", "D3.js"],
+    "client": { "name": "Ibrahim Suleiman", "company": "AfriMart Retail Group", "website": "#" },
+    "testimonial": {
+      "quote": "Tesle Analytics gave us real-time visibility into every store's performance. The AI-powered demand forecasts alone have saved us millions in excess inventory.",
+      "author": "Ibrahim Suleiman",
+      "role": "CEO, AfriMart Retail Group"
+    },
+    "results": ["22% revenue increase", "18% reduction in inventory costs", "200+ stores connected", "5-country deployment"],
+    "year": "2025",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "slug": "hospitality-support-platform",
+    "title": "Tesle Support  Hospitality Group",
+    "category": "Support",
+    "shortDescription": "AI-powered customer support platform for a luxury hospitality group managing 15 hotels across Africa.",
+    "fullDescription": "We deployed Tesle Support for a luxury hospitality group operating 15 hotels across 8 African countries. The platform unified guest communications across email, WhatsApp, phone, and in-app chat into a single intelligent queue. AI virtual agents handle 55% of common queries autonomously  booking changes, concierge requests, and check-out inquiries  while routing complex issues to the right department instantly.",
+    "images": [
+      { "url": "https://picsum.photos/seed/support-inbox/800/500", "alt": "Unified support inbox", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/support-bot/800/600", "alt": "AI chatbot interface", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/support-analytics/800/550", "alt": "Support analytics dashboard", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle Support", "Tesle CRM", "NLP", "WhatsApp API", "WebSockets"],
+    "client": { "name": "Victoria Ashford", "company": "Aurora Luxury Resorts", "website": "#" },
+    "testimonial": {
+      "quote": "Our guests love the instant WhatsApp responses. The AI handles over half of all inquiries automatically, and our service team can focus on delivering exceptional experiences for complex requests.",
+      "author": "Victoria Ashford",
+      "role": "VP Guest Experience, Aurora Luxury Resorts"
+    },
+    "results": ["55% of queries resolved by AI", "40% faster response times", "15 hotels across 8 countries", "92% guest satisfaction score"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "slug": "logistics-supply-chain",
+    "title": "Tesle Supply  Logistics Provider",
+    "category": "Supply Chain",
+    "shortDescription": "End-to-end supply chain platform for a logistics company managing 500+ fleet vehicles across East Africa.",
+    "fullDescription": "We deployed Tesle Supply for a regional logistics company with 500+ fleet vehicles operating across Kenya, Tanzania, Uganda, and Rwanda. The platform unified procurement, warehouse management, fleet tracking, and last-mile delivery into a single control tower. AI-powered route optimization reduced fuel costs by 22%, and real-time tracking improved on-time delivery from 78% to 97%.",
+    "images": [
+      { "url": "https://picsum.photos/seed/supply-control/800/500", "alt": "Supply chain control tower", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/supply-fleet/800/600", "alt": "Fleet tracking interface", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/supply-warehouse/800/550", "alt": "Warehouse management system", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle Supply", "Tesle Inventory", "Tesle Analytics", "Machine Learning", "Google Maps API"],
+    "client": { "name": "James Ochieng", "company": "East African Logistics Ltd", "website": "#" },
+    "testimonial": {
+      "quote": "Tesle Supply transformed our entire logistics operation. Route optimization saved us millions in fuel, and our customers can finally track their shipments in real time.",
+      "author": "James Ochieng",
+      "role": "CEO, East African Logistics Ltd"
+    },
+    "results": ["22% reduction in fuel costs", "97% on-time delivery (up from 78%)", "500+ fleet vehicles tracked", "4-country operation unified"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "slug": "fintech-project-platform",
+    "title": "Tesle Project  Fintech Scale-Up",
+    "category": "Project Management",
+    "shortDescription": "Enterprise project portfolio management for a fast-growing fintech with 40+ concurrent product teams.",
+    "fullDescription": "We deployed Tesle Project for a rapidly scaling fintech company with 40+ product teams working across multiple markets. The platform unified engineering, product, and business teams onto a single planning and tracking system. Portfolio-level resource management eliminated team overallocation, and AI timeline forecasting improved delivery predictability from 55% to 92%.",
+    "images": [
+      { "url": "https://picsum.photos/seed/project-portfolio/800/500", "alt": "Portfolio overview dashboard", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/project-board/800/600", "alt": "Agile board view", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/project-timeline/800/550", "alt": "AI timeline forecasting", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle Project", "Tesle Connect", "Tesle Analytics", "Machine Learning", "WebSockets"],
+    "client": { "name": "Tunde Bakare", "company": "PayStack Technologies", "website": "#" },
+    "testimonial": {
+      "quote": "With 40+ teams shipping continuously, we needed better visibility. Tesle Project gave us portfolio-wide resource management and AI forecasts that predict delivery dates with remarkable accuracy.",
+      "author": "Tunde Bakare",
+      "role": "VP Engineering, PayStack Technologies"
+    },
+    "results": ["92% delivery predictability (up from 55%)", "40+ product teams unified", "30% increase in team velocity", "Eliminated resource overallocation"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "slug": "healthcare-payroll",
+    "title": "Tesle Payroll  Healthcare Network",
+    "category": "Payroll",
+    "shortDescription": "Automated payroll and compliance platform for a healthcare network with 12 hospitals and 8,000+ staff.",
+    "fullDescription": "We deployed Tesle Payroll for a private healthcare network operating 12 hospitals and 40+ clinics across Ghana and Nigeria. The platform automated payroll processing for 8,000+ staff across multiple employment types  full-time, part-time, locum, and contract. Statutory compliance for two countries, automated tax computations, and seamless banking integration reduced payroll processing time by 80%.",
+    "images": [
+      { "url": "https://picsum.photos/seed/payroll-dash/800/500", "alt": "Payroll dashboard overview", "width": 800, "height": 500 },
+      { "url": "https://picsum.photos/seed/payroll-compliance/800/600", "alt": "Compliance reporting interface", "width": 800, "height": 600 },
+      { "url": "https://picsum.photos/seed/payroll-self/800/550", "alt": "Employee payslip portal", "width": 800, "height": 550 }
+    ],
+    "technologies": ["Tesle Payroll", "Tesle HRM", "Tesle Financials", "Banking APIs", "Docker"],
+    "client": { "name": "Dr. Tchoussam Freddy", "company": "MediCare Health Network", "website": "#" },
+    "testimonial": {
+      "quote": "Payroll for 8,000+ staff across two countries was a nightmare. Tesle Payroll automated everything  from timesheet import to tax filing  and our finance team got 80% of their month-end time back.",
+      "author": "Dr. Tchoussam Freddy",
+      "role": "Group CFO, MediCare Health Network"
+    },
+    "results": ["80% faster payroll processing", "8,000+ staff across 2 countries", "100% statutory compliance", "Zero payroll errors in 6 months"],
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "cs-services-ltd",
+    "title": "CS Services Ltd",
+    "category": "Websites",
+    "shortDescription": "Professional corporate website for a facilities management and services company.",
+    "fullDescription": "We designed and developed a professional corporate website for CS Services Ltd, a leading facilities management company. The site showcases their range of services including cleaning, security, pest control, and maintenance. Built with a clean, modern design that communicates trust, reliability, and professionalism. The website features a service showcase, portfolio gallery, client testimonials, and an integrated contact system.",
+    "images": [
+      { "url": "/images/case-csservices.png", "alt": "CS Services Ltd website homepage", "width": 1280, "height": 800 }
+    ],
+    "technologies": ["React", "Tailwind CSS", "Responsive Design"],
+    "client": { "name": "CS Services Ltd", "company": "CS Services Ltd", "website": "https://csservicesltd.com" },
+    "results": ["Modern corporate online presence", "Responsive design across all devices", "Integrated service showcase", "Client inquiry system"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 10,
+    "slug": "building-dreams-construction",
+    "title": "Building Dreams Construction Ltd",
+    "category": "Websites",
+    "shortDescription": "Corporate website for a construction and building development company.",
+    "fullDescription": "We created a compelling digital presence for Building Dreams Construction Ltd, a construction company specializing in residential and commercial projects. The website highlights their portfolio of completed projects, team expertise, and commitment to quality craftsmanship. Features include a project gallery, service details, client reviews, and an easy-to-use contact form for project inquiries.",
+    "images": [
+      { "url": "/images/case-buildingdreams.png", "alt": "Building Dreams Construction Ltd website", "width": 1280, "height": 800 }
+    ],
+    "technologies": ["React", "Tailwind CSS", "Responsive Design"],
+    "client": { "name": "Building Dreams Construction Ltd", "company": "Building Dreams Construction Ltd", "website": "https://www.buildingdreamscoltd.com" },
+    "results": ["Professional construction industry presence", "Project portfolio showcase", "Client testimonial integration", "Mobile-optimized experience"],
+    "year": "2026",
+    "featured": true
+  },
+  {
+    "id": 11,
+    "slug": "lemak-enterprise",
+    "title": "Lemak Enterprise",
+    "category": "Websites",
+    "shortDescription": "Business website for a multi-sector enterprise company.",
+    "fullDescription": "We developed a clean, professional website for Lemak Enterprise, a multi-sector business operating across trading, logistics, and services. The site presents their diverse business interests, company values, and operational reach. Built with a focus on clarity and ease of navigation, the website helps potential partners and clients quickly understand their capabilities and get in touch.",
+    "images": [
+      { "url": "/images/case-lemak.png", "alt": "Lemak Enterprise website", "width": 1280, "height": 800 }
+    ],
+    "technologies": ["React", "Tailwind CSS", "Responsive Design"],
+    "client": { "name": "Lemak Enterprise", "company": "Lemak Enterprise", "website": "https://lemakenterprise.com" },
+    "results": ["Clean multi-sector business presence", "Service and capability showcase", "Professional partner onboarding", "Cross-device compatibility"],
+    "year": "2026",
+    "featured": true
+  }
+]

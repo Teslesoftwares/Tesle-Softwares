@@ -1,7 +1,33 @@
 node_modules/
 dist/
+.npm-cache/
+build/
 .env
 .env.local
 .env.*.local
 *.log
 .DS_Store
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Docker
+docker-compose.override.yml
+
+# Storage
+backend/storage/documents/*
+!backend/storage/documents/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
