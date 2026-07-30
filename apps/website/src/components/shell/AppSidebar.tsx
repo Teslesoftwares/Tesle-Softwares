@@ -76,7 +76,7 @@ export function AppSidebar() {
 
   return (
     <aside
-className={`hidden lg:flex h-[var(--dvh)] flex-col bg-surface border-r border-glass transition-all duration-300 shrink-0 ${
+className={`hidden lg:flex h-screen flex-col bg-surface border-r border-glass transition-all duration-300 shrink-0 ${
          collapsed ? 'w-[68px]' : 'w-[248px]'
        }`}
     >

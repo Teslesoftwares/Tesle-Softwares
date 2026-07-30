@@ -152,7 +152,7 @@ export function Hero() {
 
   return (
     <section
-      className="relative h-full flex items-center justify-center overflow-hidden"
+      className="relative min-h-full flex items-center justify-center"
     >
       <ParticleField count={80} color="255, 107, 0" speed={0.3} />
 
@@ -177,7 +177,7 @@ export function Hero() {
       </AnimatePresence>
 
       {/* Animated background orbs */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-accent/[0.03] via-purple/[0.02] to-transparent" />
         <motion.div
           className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full"

@@ -7,7 +7,7 @@ export function WorkspaceSidebar() {
 
   return (
     <aside
-      className={`h-[var(--dvh)] flex flex-col bg-surface border-r border-glass transition-all duration-300 shrink-0 ${
+      className={`h-screen flex flex-col bg-surface border-r border-glass transition-all duration-300 shrink-0 ${
          sidebarCollapsed ? 'w-[68px]' : 'w-[240px]'
        }`}
     >
