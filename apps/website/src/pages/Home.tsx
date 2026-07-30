@@ -47,7 +47,7 @@ export default function Home() {
       <StructuredData data={localBusinessSchema()} />
 
       {/* ====== HERO + TRUSTED BY (fills first screen) ====== */}
-      <section id="home" className="relative h-[calc(100vh-3.5rem)]">
+      <section id="home" className="relative h-[calc(var(--dvh)-3.5rem)]">
         {/* Hero fills entire section including behind trusted by */}
         <div className="absolute inset-0">
           <Hero />

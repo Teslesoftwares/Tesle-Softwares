@@ -7,9 +7,9 @@ export function WorkspaceSidebar() {
 
   return (
     <aside
-      className={`h-screen flex flex-col bg-surface border-r border-glass transition-all duration-300 shrink-0 ${
-        sidebarCollapsed ? 'w-[68px]' : 'w-[240px]'
-      }`}
+      className={`h-[var(--dvh)] flex flex-col bg-surface border-r border-glass transition-all duration-300 shrink-0 ${
+         sidebarCollapsed ? 'w-[68px]' : 'w-[240px]'
+       }`}
     >
       {/* Logo area */}
       <div className="flex items-center h-16 px-4 border-b border-glass shrink-0">

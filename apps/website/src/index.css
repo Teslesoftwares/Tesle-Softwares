@@ -119,6 +119,16 @@
   letter-spacing: -0.02em;
 }
 
+:root {
+  --dvh: 100vh;
+}
+
+@supports (height: 100dvh) {
+  :root {
+    --dvh: 100dvh;
+  }
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
