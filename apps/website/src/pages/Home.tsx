@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         {/* Signup banner pinned at bottom */}
         <div className="absolute bottom-0 left-0 right-0 z-10 py-6 bg-accent border-t border-white/20">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="w-full px-4 sm:px-6 md:px-12 flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-sm sm:text-base text-white/80 text-center sm:text-left leading-relaxed">
               <span className="font-semibold text-white">Get the full Tesle experience.</span> Create a free account to explore all products and install apps.
             </p>
