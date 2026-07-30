@@ -8,16 +8,9 @@ import { CommandPalette } from './CommandPalette';
 import { NotificationsPanel } from './NotificationsPanel';
 import { MobileMenu } from './MobileMenu';
 import { useAuth } from '@/hooks/useAuth';
-import { useMediaQuery } from '@/hooks/useMediaQuery';
-import ComingSoon from '@/pages/ComingSoon';
 
 export function AppShell({ children }: { children: ReactNode }) {
   const { isLoggedIn } = useAuth();
-  const isMobile = useMediaQuery('(max-width: 767px)');
-
-  if (isMobile && !isLoggedIn) {
-    return <ComingSoon />;
-  }
 
   if (!isLoggedIn) {
     return (
