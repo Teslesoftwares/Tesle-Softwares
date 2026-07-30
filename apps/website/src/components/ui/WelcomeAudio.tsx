@@ -100,9 +100,9 @@ export function WelcomeAudio() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -40 }}
             transition={{ type: 'spring', stiffness: 400, damping: 28 }}
-            whileHover={{ x: 3 }}
-            whileTap={{ x: -3 }}
-            className={`fixed bottom-5 left-5 z-50 w-10 h-10 rounded-full flex items-center justify-center glass border
+              whileHover={{ x: 3 }}
+              whileTap={{ x: -3 }}
+              className={`fixed bottom-5 left-5 z-50 w-10 h-10 rounded-full items-center justify-center glass border hidden md:flex
               ${playing ? 'border-accent/50 shadow-lg shadow-accent/20' : 'border-white/[0.06]'}
               group cursor-pointer`}
             title="Open music player"
@@ -121,7 +121,7 @@ export function WelcomeAudio() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 40 }}
             transition={{ type: 'spring', stiffness: 400, damping: 28 }}
-            className="fixed bottom-5 left-5 z-50 flex items-center gap-1.5 px-3 py-2.5 rounded-full glass border border-accent/30 shadow-lg max-w-[90vw]"
+            className="fixed bottom-5 left-5 z-50 items-center gap-1.5 px-3 py-2.5 rounded-full glass border border-accent/30 shadow-lg max-w-[90vw] hidden md:flex"
           >
             <motion.button
               onClick={togglePlay}
