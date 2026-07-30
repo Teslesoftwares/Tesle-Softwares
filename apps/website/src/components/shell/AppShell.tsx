@@ -1,4 +1,4 @@
-import { type ReactNode } from 'react';
+import { type ReactNode, useState, useEffect } from 'react';
 import { AppSidebar } from './AppSidebar';
 import { AppHeader } from './AppHeader';
 import { PublicHeader } from './PublicHeader';
@@ -8,9 +8,25 @@ import { CommandPalette } from './CommandPalette';
 import { NotificationsPanel } from './NotificationsPanel';
 import { MobileMenu } from './MobileMenu';
 import { useAuth } from '@/hooks/useAuth';
+import ComingSoon from '@/pages/ComingSoon';
+
+function useIsMobile() {
+  const [mobile, setMobile] = useState(() => window.innerWidth < 768);
+  useEffect(() => {
+    const handler = () => setMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handler);
+    return () => window.removeEventListener('resize', handler);
+  }, []);
+  return mobile;
+}
 
 export function AppShell({ children }: { children: ReactNode }) {
   const { isLoggedIn } = useAuth();
+  const isMobile = useIsMobile();
+
+  if (isMobile && !isLoggedIn) {
+    return <ComingSoon />;
+  }
 
   if (!isLoggedIn) {
     return (
