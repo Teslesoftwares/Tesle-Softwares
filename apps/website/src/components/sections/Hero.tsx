@@ -227,7 +227,7 @@ export function Hero() {
       </div>
 
       {/* Slide Content */}
-      <motion.div className="relative z-10 w-full h-full flex items-center">
+      <motion.div className="relative z-10 w-full h-full flex items-start pt-4 sm:pt-6">
         <div className="w-full px-4 sm:px-6 md:px-12 lg:px-16 text-center">
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
